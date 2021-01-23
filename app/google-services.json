@@ -1,40 +1,40 @@
 {
   "project_info": {
-    "project_number": "883413625321",
-    "firebase_url": "https://new-43f26.firebaseio.com",
-    "project_id": "new-43f26",
-    "storage_bucket": "new-43f26.appspot.com"
+    "project_number": "84040967648",
+    "firebase_url": "https://newrocket-c5e36.firebaseio.com",
+    "project_id": "newrocket-c5e36",
+    "storage_bucket": "newrocket-c5e36.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:883413625321:android:5d90304b06a7716a34c378",
+        "mobilesdk_app_id": "1:84040967648:android:3986d2afed64116bdc3785",
         "android_client_info": {
-          "package_name": "com.clean.emptyrocket"
+          "package_name": "com.cleaner.booster.rocket"
         }
       },
       "oauth_client": [
         {
-          "client_id": "883413625321-fr53edplqgq1ihm59djo1enb1svn9nsk.apps.googleusercontent.com",
+          "client_id": "84040967648-1irnkhgjlmqlhjif0bht8qj4aipkje5h.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCVWB3O2KrgAQLMogCeMJ6erOGFYzYZw4A"
+          "current_key": "AIzaSyAPEonnKAfgbMMYZE89uuXf_UHPr6DLxvk"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "883413625321-fr53edplqgq1ihm59djo1enb1svn9nsk.apps.googleusercontent.com",
+              "client_id": "84040967648-1irnkhgjlmqlhjif0bht8qj4aipkje5h.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
         }
       },
-      "admob_app_id": "ca-app-pub-3050564412171997~1647153543"
+      "admob_app_id": "ca-app-pub-9302174123686500~9441193407"
     }
   ],
   "configuration_version": "1"

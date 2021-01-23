@@ -7,29 +7,31 @@
 
     <string name="cache" translatable="false">cache</string>
     <string name="ok" translatable="false">ok</string>
-    <string name="accesibilityService" translatable="false">Magic Cleaner service</string>
+    <string name="accesibilityService" translatable="false">Super Phone Cleaner</string>
     <string name="serviceDescription" translatable="false">This service clean your app cache. We don`t use your private information.</string>
 
 
-    <string name="app_name" translatable="false">Magic cleaner PRO</string>
+    <string name="app_name" translatable="false">Super Phone Cleaner</string>
     <string name="action_settings" translatable="false">Settings</string>
-    <string name="facebook_app_id" translatable="false">2925161510862306</string>
-    <string name="fb_login_protocol_scheme" translatable="false">fb2925161510862306</string>
 
-    <string name="banner_key" translatable="false">ca-app-pub-3050564412171997/5125096376</string>
-    <string name="banner_key_test" translatable="false">ca-app-pub-3050564412171997/3540551968</string>
-    <string name="interstitial" translatable="false">ca-app-pub-3050564412171997/3428871323</string>
-    <string name="native_ad" translatable="false">ca-app-pub-3050564412171997/8693123528</string>
-    <string name="ab_native_ad" translatable="false">ca-app-pub-3050564412171997/5875388496</string>
-    <string name="admob_id" translatable="false">ca-app-pub-3050564412171997~1647153543</string>
+    <!--Super New id (work)-->
+    <!--<string name="banner_key" translatable="false">ca-app-pub-9302174123686500/2798945197</string>
+    <string name="banner_key_test" translatable="false">ca-app-pub-9302174123686500/2798945197</string>
+    <string name="interstitial" translatable="false">ca-app-pub-9302174123686500/6027743769</string>
+    <string name="native_ad" translatable="false">ca-app-pub-2906731638529737/4115171578</string>
+    <string name="ab_native_ad" translatable="false">ca-app-pub-2906731638529737/4115171578</string>
+    <string name="admob_id" translatable="false">ca-app-pub-9302174123686500~9441193407</string>-->
+
 
     <!--Test-->
-    <!--<string name="admob_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
     <string name="banner_key" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
     <string name="banner_key_test" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
     <string name="interstitial" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
     <string name="native_ad" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
-    <string name="ab_native_ad" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+    <string name="ab_native_ad" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+
+
 
     <string name="byte_short" translatable="false">B</string>
     <!-- Suffix added to a number to signify size in kilobytes. -->

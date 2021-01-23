@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="dev.mem.rocket.sanya">
+    package="dev.clean.rocket.booster">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
@@ -22,7 +22,7 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
 
     <application
-        android:name="dev.mem.rocket.sanya.MyApp"
+        android:name="dev.clean.rocket.booster.MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -33,11 +33,11 @@
         android:theme="@style/AppTheme.NoActionBar"
         android:usesCleartextTraffic="true">
 
-        <activity android:name="dev.mem.rocket.sanya.presentation.privacy.PrivacyPoliceActivity"></activity>
+        <activity android:name="dev.clean.rocket.booster.presentation.privacy.PrivacyPoliceActivity"></activity>
 
 
         <activity
-            android:name="dev.mem.rocket.sanya.SplashActivity"
+            android:name="dev.clean.rocket.booster.SplashActivity"
             android:noHistory="true"
             android:screenOrientation="portrait"
             android:theme="@style/SplashTheme">
@@ -49,17 +49,17 @@
         </activity>
 
         <activity
-            android:name="dev.mem.rocket.sanya.MainActivity"
+            android:name="dev.clean.rocket.booster.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="dev.mem.rocket.sanya.presentation.prem.ParentPremActivity"
+            android:name="dev.clean.rocket.booster.presentation.prem.ParentPremActivity"
             android:screenOrientation="portrait"
             />
 
         <activity
-            android:name="dev.mem.rocket.sanya.presentation.prem.activities.PremShoutActivity"
+            android:name="dev.clean.rocket.booster.presentation.prem.activities.PremShoutActivity"
             android:screenOrientation="portrait"
             android:theme="@style/ShoutPrem"/>
 
@@ -67,27 +67,27 @@
 
 
         <activity
-            android:name=".presentation.prem.ab.dec.BottomActivity"
+            android:name="dev.clean.rocket.booster.presentation.prem.ab.dec.BottomActivity"
             android:screenOrientation="portrait"
             android:theme="@style/BottomPremStyle"/>
 
         <activity
-            android:name=".presentation.prem.ab.dec.FlagActivity"
+            android:name="dev.clean.rocket.booster.presentation.prem.ab.dec.FlagActivity"
             android:screenOrientation="portrait"
             android:theme="@style/BottomPremStyle"/>
 
         <activity
-            android:name=".presentation.prem.ab.dec.LockActivity"
+            android:name="dev.clean.rocket.booster.presentation.prem.ab.dec.LockActivity"
             android:screenOrientation="portrait"
             android:theme="@style/LockPremStyle"/>
 
         <activity
-            android:name=".presentation.prem.ab.dec.ShieldActivity"
+            android:name="dev.clean.rocket.booster.presentation.prem.ab.dec.ShieldActivity"
             android:screenOrientation="portrait"
             android:theme="@style/LockPremStyle"/>
 
         <activity
-            android:name=".presentation.prem.ab.dec.WhiteActivity"
+            android:name="dev.clean.rocket.booster.presentation.prem.ab.dec.WhiteActivity"
             android:screenOrientation="portrait"
             android:theme="@style/WhitePremStyle">
         </activity>
@@ -98,46 +98,46 @@
 
 
         <activity
-            android:name="dev.mem.rocket.sanya.presentation.prem.activities.PremGreenActivity"
+            android:name="dev.clean.rocket.booster.presentation.prem.activities.PremGreenActivity"
             android:screenOrientation="portrait"
             android:theme="@style/ShoutPrem"/>
 
         <activity
-            android:name="dev.mem.rocket.sanya.Volume.NoAdsFrag"
-            android:parentActivityName="dev.mem.rocket.sanya.MainActivity"
+            android:name="dev.clean.rocket.booster.Volume.NoAdsFrag"
+            android:parentActivityName="dev.clean.rocket.booster.MainActivity"
             tools:ignore="UnusedAttribute">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="dev.mem.rocket.sanya.MainActivity" />
+                android:value="dev.clean.rocket.booster.MainActivity" />
         </activity>
         <activity
-            android:name="dev.mem.rocket.sanya.presentation.battery.medium.PowerSaving_popup"
+            android:name="dev.clean.rocket.booster.presentation.battery.medium.PowerSaving_popup"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="dev.mem.rocket.sanya.presentation.battery.hard.Ultra_PopUp"
+            android:name="dev.clean.rocket.booster.presentation.battery.hard.Ultra_PopUp"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="dev.mem.rocket.sanya.presentation.battery.hard.BatterySaver_Black"
+            android:name="dev.clean.rocket.booster.presentation.battery.hard.BatterySaver_Black"
             android:screenOrientation="portrait" />
         <activity
-            android:name="dev.mem.rocket.sanya.presentation.battery.low.Noraml_Mode"
+            android:name="dev.clean.rocket.booster.presentation.battery.low.Noraml_Mode"
             android:screenOrientation="portrait" />
         <activity
-            android:name="dev.mem.rocket.sanya.presentation.battery.medium.PowerSaving_Complition"
+            android:name="dev.clean.rocket.booster.presentation.battery.medium.PowerSaving_Complition"
             android:screenOrientation="portrait" />
         <activity
-            android:name="dev.mem.rocket.sanya.presentation.battery.hard.Applying_Ultra"
+            android:name="dev.clean.rocket.booster.presentation.battery.hard.Applying_Ultra"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.clean.emptyrocket.Scanning_Junk"
             android:screenOrientation="portrait" />
         <activity
-            android:name="dev.mem.rocket.sanya.presentation.cpu.Cpu_Scanner"
+            android:name="dev.clean.rocket.booster.presentation.cpu.Cpu_Scanner"
             android:screenOrientation="portrait" />
         <activity
-            android:name="dev.mem.rocket.sanya.PPP.Pick_Apps"
+            android:name="dev.clean.rocket.booster.PPP.Pick_Apps"
             android:theme="@style/Transparent" />
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
@@ -153,17 +153,17 @@
             android:name="com.google.android.gms.ads.AD_MANAGER_APP"
             android:value="true"/>
 
-        <receiver android:name="dev.mem.rocket.sanya.AAA.Alarm_Booster" />
-        <receiver android:name="dev.mem.rocket.sanya.AAA.Alarm_Junk" />
-        <receiver android:name="dev.mem.rocket.sanya.AAA.AlarmBroadCastReceiver" />
-        <receiver android:name="dev.mem.rocket.sanya.utils.notifications.AlarmReceiver" />
-        <receiver android:name=".utils.notifications.interactive.brs.BoostBR"/>
-        <receiver android:name=".utils.notifications.interactive.brs.BatteryBR"/>
-        <receiver android:name=".utils.notifications.interactive.brs.TemperatureBR"/>
-        <receiver android:name=".utils.notifications.interactive.brs.ClearBR"/>
-        <receiver android:name=".utils.notifications.interactive.brs.OtherBR"/>
+        <receiver android:name="dev.clean.rocket.booster.AAA.Alarm_Booster" />
+        <receiver android:name="dev.clean.rocket.booster.AAA.Alarm_Junk" />
+        <receiver android:name="dev.clean.rocket.booster.AAA.AlarmBroadCastReceiver" />
+        <receiver android:name="dev.clean.rocket.booster.utils.notifications.AlarmReceiver" />
+        <receiver android:name="dev.clean.rocket.booster.utils.notifications.interactive.brs.BoostBR"/>
+        <receiver android:name="dev.clean.rocket.booster.utils.notifications.interactive.brs.BatteryBR"/>
+        <receiver android:name="dev.clean.rocket.booster.utils.notifications.interactive.brs.TemperatureBR"/>
+        <receiver android:name="dev.clean.rocket.booster.utils.notifications.interactive.brs.ClearBR"/>
+        <receiver android:name="dev.clean.rocket.booster.utils.notifications.interactive.brs.OtherBR"/>
 
-        <receiver android:name=".utils.notifications.interactive.brs.RestartBR"
+        <receiver android:name="dev.clean.rocket.booster.utils.notifications.interactive.brs.RestartBR"
             android:enabled="true"
             android:exported="true"
             android:label="RestartServiceStopped">
@@ -178,14 +178,14 @@
 
         </receiver>
 
-        <receiver android:name=".utils.notifications.system.BRBattery">
+        <receiver android:name="dev.clean.rocket.booster.utils.notifications.system.BRBattery">
             <intent-filter>
                 <action android:name="android.intent.action.BATTERY_LOW"/>
             </intent-filter>
         </receiver>
 
 
-        <receiver android:name="dev.mem.rocket.sanya.utils.notifications.BootNotificationService"
+        <receiver android:name="dev.clean.rocket.booster.utils.notifications.BootNotificationService"
             android:exported="true"
             android:enabled="true">
             <intent-filter>
@@ -197,24 +197,24 @@
 
 
 
-        <receiver android:name="dev.mem.rocket.sanya.PPP.PowerConnected">
+        <receiver android:name="dev.clean.rocket.booster.PPP.PowerConnected">
             <intent-filter>
                 <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
             </intent-filter>
         </receiver>
 
 
-        <service android:name=".utils.notifications.interactive.WidgetService"/>
-        <service android:name=".utils.notifications.interactive.jservice.JobService"
+        <service android:name="dev.clean.rocket.booster.utils.notifications.interactive.WidgetService"/>
+        <service android:name="dev.clean.rocket.booster.utils.notifications.interactive.jservice.JobService"
             android:permission="android.permission.BIND_JOB_SERVICE"/>
 
         <service
-            android:name="dev.mem.rocket.sanya.utils.notifications.BootReceiver"
+            android:name="dev.clean.rocket.booster.utils.notifications.BootReceiver"
             android:permission="android.permission.BIND_JOB_SERVICE"/>
 
 
         <service
-            android:name="dev.mem.rocket.sanya.service.CleanService"
+            android:name="dev.clean.rocket.booster.service.CleanService"
             android:label="@string/accesibilityService"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
             <intent-filter>
@@ -227,7 +227,7 @@
         </service>
 
         <service
-            android:name=".utils.notifications.fcm.FCMService"
+            android:name="dev.clean.rocket.booster.utils.notifications.fcm.FCMService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />

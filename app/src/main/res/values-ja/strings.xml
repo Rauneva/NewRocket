@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="hh_remaining"                             >残り 6  時間 0  分</string>
+    <string name="hhh_remaining"                            >残り 8  時間 25 分</string>
+    <string name="hhhh_remaining"                           >残り 12 時間 55 分</string>
+    <string name="hhhhh_remaining"                          >残り 19 時間 2  分</string>
+    <string name="hhhhhh_remaining"                         >残り 22 時間 0  分</string>
+    <string name="hhhhhhh_remaining"                        >残り 28 時間 15 分</string>
+    <string name="hhhhhhhh_remaining"                       >残り 30 時間 55 分</string>
+    <string name="hhhhhhhhh_remaining"                      >残り 38 時間 5  分</string>
+    <string name="hhhhhhhhhh_remaining"                     >残り 60 時間 0  分</string>
+
+
+    <string name="title_notefication"                       >パフォーマンスに関する問題</string>
+    <string name="detail_notification"                      >携帯にジャンクファイルが多いためパフォーマンスの問題が生じています。</string>
+    <string name="remove_ads"                               >広告を除去</string>
+    <string name="extended_battery_up_to"                   >電池の持ち時間を最大次の量延長:</string>
+    <string name="battery_remaining"                        >電池の残り時間</string>
+    <string name="h_remaining"                              >残り 3 時間 55 分</string>
+    <string name="this_app_is_already_added"                >このアプリは既に追加されています</string>
+    <string name="cooled_CPU_to"                            >CPU を 25.3°C に冷却しました</string>
+    <string name="MB_of_junk_files_are_cleared"             >MB のジャンクファイルが消去されました</string>
+    <string name="cleared"                                  >消去済み</string>
+    <string name="phone_is_already_optimized"               >携帯は既に最適化済みです</string>
+    <string name="scanning"                                 >スキャン中...</string>
+    <string name="found"                                    >検出</string>
+    <string name="storage"                                  >ストレージ</string>
+    <string name="optimiing"                                >最適化中...</string>
+    <string name="charge_booster"                           >充電ブースター</string>
+    <string name="used_mem"                                 >使用メモリー （メモリー）</string>
+    <string name="crystal_clear"                            >明瞭</string>
+    <string name="no_junk_files_already_cleaned"            >既にクリーニングされたジャンクファイルがありません。</string>
+    <string name="junk_cleaner"                             >ジャンククリーナー</string>
+    <string name="currently_no_app_causing_overheating"     >現在オーバーヒートの原因となっているアプリはありません</string>
+    <string name="normal"                                   >普通</string>
+    <string name="cpu_temperature_is_good"                  >CPU 温度は正常です</string>
+    <string name="cpu_temperature_is_already_normal"        >CPU 温度は既に通常です</string>
+    <string name="cpu_cooler"                               >CPU クーラー</string>
+    <string name="battery_saver"                            >バッテリーセーバー</string>
+    <string name="running_processes"                        >実行中のプロセス</string>
+    <string name="ram_usage"                                >Ram の使用状況</string>
+    <string name="charging_time_remaning"                   >残り充電時間</string>
+    <string name="overheated"                               >オーバーヒート</string>
+    <string name="application_class_problem"                >ApplicationsClass が問題を起こしています。冷却ボタンを押してください</string>
+    <string name="cooling_cpu"                              >CPU を冷却中</string>
+    <string name="storage2"                                 >ストレージ</string>
+    <string name="apply"                                    >適用</string>
+    <string name="extended_battery_up_to_10h_30m"           >電池の持ち時間を最大 10 時間 30 分延長</string>
+    <string name="add"                                      >追加</string>
+    <string name="ultra_power_saving_mode"                  >ウルトラ省電力モード</string>
+    <string name="disable_extreme_power_saving_mode"        >エクストリーム省電力モードを無効にする</string>
+    <string name="camera"                                   >カメラ</string>
+    <string name="calculator"                               >計算機</string>
+    <string name="alaram"                                   >アラーム</string>
+    <string name="map"                                      >マップ</string>
+    <string name="play_store"                               >Play ストア</string>
+    <string name="limited_apps_are_avalible_and_some_apps_and_features_may_not_work_when_ultra_power_saving_mode_is_enabled"
+                                                            >ウルトラ小電力モードを有効にすると、利用可能なアプリが制限され、アプリと機能の一部は動作しない場合があります。</string>
+    <string name="add_applications"                         >アプリケーションを追加</string>
+    <string name="my_message"                               >マイメッセージ</string>
+    <string name="decreasing_brightness_upto_90"            >明度を最大 90% 低下させています</string>
+    <string name="decreasing_device_performance"            >デバイスのパフォーマンスを低下させています</string>
+    <string name="closing_background_apps_and_services"     >バックグラウンドのアプリとサービスを閉じています</string>
+    <string name="locking_acess_to_power_consuming_apps"    >電力を消費するアプリへのアクセスをロックしています</string>
+    <string name="closing_all_power_consuming_functions"    >すべての電力を消費する機能を閉じています</string>
+    <string name="optimize"                                 >最適化</string>
+    <string name="optimized"                                >最適化済み</string>
+    <string name="battery_power_20"                         >電池残量 20%</string>
+    <string name="_16h_21m_remaning"                        >残り 16 時間 21 分</string>
+    <string name="extreme"                                  >エクストリーム</string>
+    <string name="normal_mode"                              >ノーマル</string>
+    <string name="ultra"                                    >ウルトラ</string>
+    <string name="cool_down"                                >冷却</string>
+    <string name="cooled"                                   >冷却済み</string>
+    <string name="clean"                                    >クリーニング</string>
+    <string name="cleaned"                                  >クリーニング済み</string>
+    <string name="cache_memory"                             >キャッシュメモリ－</string>
+    <string name="temporary_files"                          >一時ファイル</string>
+    <string name="residual_files"                           >残存ファイル</string>
+    <string name="system_junk"                              >システムジャンク</string>
+    <string name="cpu_scanner1"                             >明度を最大 80% に制限</string>
+    <string name="cpu_scanner2"                             >デバイスのパフォーマンスを低下させる</string>
+    <string name="cpu_scanner3"                             >電力を消費する ApplicationsClass をすべて閉じる</string>
+    <string name="cpu_scanner4"                             >Bluetooth、画面の回転、同期などのシステムサービスを閉じます。</string>
+
+
+    <string name="use_the_application_without">邪魔な広告なしでアプリを利用</string>
+    <string name="subscribe_shout">講読</string>
+    <string name="wait">待ってください！</string>
+    <string name="_70_discount">70 % 割引</string>
+    <string name="remove_ads_in_the_application">アプリ内の広告を永久に削除</string>
+    <string name="offer_is_valid_once">オファーは1回のみ有効</string>
+    <string name="remove_ads_alert">広告を削除</string>
+    <string name="special_one_time_offer">1回限定特別オファー</string>
+    <string name="if_you_complete_your_purchase_directly_now">今すぐ購入すると、割引が受けられます</string>
+    <string name="continue_without_ads">広告なしで続行</string>
+    <string name="month">/月</string>
+
+    <string name="start_text_prem">7日間の試用期間。 後</string>
+    <string name="end_text_prem">月額。 GooglePlayアカウントでサブスクリプションを管理できます</string>
+    <string name="whole_text_prem">7日間の試用期間。 4米ドル後。 月額。 GooglePlayアカウントでサブスクリプションを管理できます</string>
+    <string name="prem4">7日間無料。</string>
+    <string name="prem5">1か月間の追加サブスクリプション</string>
+    <string name="prem6">1か月の追加サブスクリプション4USD</string>
+    <string name="ads_blocking">広告のブロック</string>
+    <string name="no_more_annoying_ads">もう迷惑なADSはありません</string>
+
+    <string name="notif_low_battery_notif">低い電池のレベル</string>
+    <string name="notif_tap_to_extend">タップすると、デバイスの寿命が延びます</string>
+    <string name="notif_removed_app">アプリを削除しました</string>
+    <string name="notif_recommended">システムを清掃することをお勧めします</string>
+    <string name="notif_installed">アプリをインストール</string>
+    <string name="notif_optimize">デバイスの最適化</string>
+    <string name="notif_little">小さなスペース</string>
+    <string name="notif_click_to_clear">クリックしてメモリをクリア</string>
+
+    <string name="remove_ads_white">広告を削除</string>
+    <string name="description_month">毎月定期購読は　%s で自動継続</string>
+    <string name="white_month">1ヶ月</string>
+    <string name="white_year">1年</string>
+    <string name="description_year">年間定期購読は　%s で自動継続</string>
+    <string name="no_ban_ads_shield">バナー広告なし</string>
+    <string name="no_pop_ads_shield">ポップアップ広告なし</string>
+    <string name="high_speed_shield">生産性が高い</string>
+    <string name="in_month_shield">/月</string>
+    <string name="new_lock_ads_blocking">広告ブロッキング</string>
+    <string name="no_more_annoying_ads_new_lock">これ以上の迷惑な広告</string>
+    <string name="try_7_days_for_free_new">7日間無料でお試しください</string>
+    <string name="no_any_ads_flag">広告なし</string>
+    <string name="for_month_flag">月間</string>
+    <string name="for_year_flag">年間</string>
+    <string name="remove_all_ads_black">アプリ内のすべての広告を無効にする</string>
+    <string name="in_year_shield">/年</string>
+    <string name="month_terms">7日間の試用期間。 次の ％s  /月。 GooglePlayのダッシュボードでサブスクリプションを管理できます</string>
+    <string name="year_terms">7日間の試用期間。 さらに ％s  /年。 GooglePlayのダッシュボードでサブスクリプションを管理できます</string>
+</resources>

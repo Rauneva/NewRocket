@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#27282D">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="222dp"
+            android:layout_height="222dp"
+            app:srcCompat="@drawable/img_shield_white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="85dp"/>
+
+        <Button
+            android:id="@+id/btnPayWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:letterSpacing="0.09"
+            android:lineSpacingExtra="2sp"
+            android:background="@drawable/shape_buy_button_ads"
+            android:text="@string/remove_ads"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="normal"
+            android:textColor="#ffffff"
+            android:letterSpacing="0.03"
+            android:lineSpacingExtra="4sp"
+            android:visibility="invisible"
+            tools:text="3 дня пробный период."
+            android:text="@string/prem4"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="14dp"
+            />
+
+        <TextView
+            android:id="@+id/tvPriceWhite"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="normal"
+            android:textColor="#ffffff"
+            android:letterSpacing="0.03"
+            android:gravity="center_horizontal"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp"
+            android:lineSpacingExtra="4sp"
+            android:text="@string/whole_text_prem"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/tvPriceEnd"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:gravity="center"
+            android:text="@string/prem7"
+            app:layout_constraintVertical_bias="0.0"
+            android:layout_gravity="center_horizontal"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="normal"
+            android:textColor="#ffffff"
+            android:letterSpacing="0.03"
+            android:lineSpacingExtra="4sp"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

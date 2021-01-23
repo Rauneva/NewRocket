@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginRight="4dp"
+    android:layout_marginLeft="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_notif_sar_brush_second"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="16dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="normal"
+        android:textColor="#1e1e1e"
+        android:letterSpacing="0.02"
+        android:lineSpacingExtra="6sp"
+        android:textAllCaps="true"
+        android:text="@string/attention"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="12dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="#1e1e1e"
+        android:letterSpacing="0.02"
+        android:lineSpacingExtra="6sp"
+        android:text="@string/phone_needs_cleaning"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="71dp"
+        android:layout_marginBottom="12dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:src="#ff0000"
+        android:layout_gravity="top"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:src="#ff0000"
+        android:layout_gravity="bottom"
+        android:scaleType="fitXY"/>
+
+</FrameLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginRight="4dp"
+    android:layout_marginLeft="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:background="#000000
+">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_subtract"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="14dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="normal"
+        android:textColor="#ffffff"
+        android:letterSpacing="0.02"
+        android:lineSpacingExtra="6sp"
+        android:text="@string/memory_is_running_out"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="12dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="#ffffff"
+        android:letterSpacing="0.02"
+        android:lineSpacingExtra="6sp"
+        android:text="@string/_1_0gb_free_memory"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="53dp"
+        android:layout_marginBottom="12dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_alert_bar"
+        android:layout_gravity="end|center_vertical"
+        android:layout_marginEnd="16dp"/>
+
+</FrameLayout>

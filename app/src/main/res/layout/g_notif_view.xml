@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginRight="4dp"
+    android:layout_marginLeft="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:background="#ffe600">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_shield_alarm"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="14dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:letterSpacing="0.02"
+        android:lineSpacingExtra="6sp"
+        android:textAllCaps="true"
+        android:text="@string/system_at_risk"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="12dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:letterSpacing="0.02"
+        android:lineSpacingExtra="6sp"
+        android:text="@string/start_cleaning_urgently"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="53dp"
+        android:layout_marginBottom="12dp"
+        />
+
+</FrameLayout>

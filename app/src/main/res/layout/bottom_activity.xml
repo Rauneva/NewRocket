@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/btn_white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#212121">
+
+        <ImageView
+            android:id="@+id/ivClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_close_bottom"
+            android:padding="16dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_bottom_prem"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:letterSpacing="0.07"
+            android:gravity="center_horizontal"
+            android:text="@string/remove_all_ads_black"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="17dp"
+            android:layout_marginEnd="17dp"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btn_white"
+                android:orientation="vertical">
+
+
+                <FrameLayout
+                    android:id="@+id/flMonth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp">
+
+                    <ImageView
+                        android:id="@+id/ivBackMonth"
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp"
+                        android:src="@drawable/selector_price_white"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/ivDotMonth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/selector_radio_button_bottom"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="13dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:textStyle="normal"
+                        android:textSize="16sp"
+                        android:textColor="#1e1e1e"
+                        android:letterSpacing="0.07"
+                        android:text="@string/white_month"
+                        android:layout_marginStart="11dp"
+                        android:layout_gravity="center_vertical"
+                        />
+
+                </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_gravity="end"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:visibility="invisible">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif"
+                                android:textStyle="normal"
+                                android:textSize="14sp"
+                                android:textColor="#b3b3b3"
+                                android:letterSpacing="0.07"
+                                android:gravity="end"
+                                android:text="$7"
+                                />
+
+                            <View
+                                android:id="@+id/divider5"
+                                android:layout_width="16dp"
+                                android:layout_height="1dp"
+                                android:layout_gravity="center_vertical"
+                                android:background="#b3b3b3" />
+
+
+                        </FrameLayout>
+
+                        <TextView
+                            android:id="@+id/tvMonthPrice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:textStyle="normal"
+                            android:textSize="18sp"
+                            android:textColor="#f7413b"
+                            android:letterSpacing="0.07"
+                            android:gravity="end"
+                            android:text="$1,99 "
+                            android:layout_marginStart="12dp"
+                            android:layout_gravity="center_vertical"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:textStyle="normal"
+                            android:textSize="12sp"
+                            android:textColor="#565656"
+                            android:letterSpacing="0.07"
+                            android:gravity="end"
+                            android:text="@string/in_month_shield"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="13dp"
+                            />
+
+                    </LinearLayout>
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:id="@+id/flYear"
+                    android:layout_width="match_parent"
+                    android:layout_height="61dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp">
+
+                    <ImageView
+                        android:id="@+id/ivBackYear"
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp"
+                        android:layout_marginTop="9dp"
+                        android:src="@drawable/selector_price_white"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/ivDotYear"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/selector_radio_button_bottom"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="13dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:textStyle="normal"
+                            android:textSize="16sp"
+                            android:textColor="#1e1e1e"
+                            android:letterSpacing="0.07"
+                            android:text="@string/white_year"
+                            android:layout_marginStart="11dp"
+                            android:layout_gravity="center_vertical"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="17dp"
+                            android:layout_gravity="center_vertical">
+
+
+                            <TextView
+                                android:id="@+id/tvOldYearPrice"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif"
+                                android:gravity="end"
+                                android:letterSpacing="0.07"
+                                android:text="$7"
+                                android:textColor="#b3b3b3"
+                                android:textSize="14sp"
+                                android:textStyle="normal"
+                                android:layout_gravity="center_horizontal"/>
+
+                            <View
+                                android:id="@+id/divider6"
+                                android:layout_width="40dp"
+                                android:layout_height="1dp"
+                                android:layout_gravity="center_vertical"
+                                android:background="#b3b3b3" />
+
+
+                        </FrameLayout>
+
+                        <TextView
+                            android:id="@+id/tvYearPrice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:textStyle="normal"
+                            android:textSize="18sp"
+                            android:textColor="#f7413b"
+                            android:letterSpacing="0.07"
+                            android:gravity="end"
+                            android:text="$1,99 "
+                            android:layout_marginStart="12dp"
+                            android:layout_gravity="center_vertical"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:textStyle="normal"
+                            android:textSize="12sp"
+                            android:textColor="#565656"
+                            android:letterSpacing="0.07"
+                            android:gravity="end"
+                            android:text="@string/in_year_shield"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="13dp"
+                            />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_sale_lock_twice"
+                        android:layout_gravity="end"/>
+                </FrameLayout>
+
+
+                <Button
+                    android:id="@+id/btnBuy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/shape_btn_buy_bottom"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center_horizontal"
+                    android:letterSpacing="0.05"
+                    android:lineSpacingExtra="2sp"
+                    android:paddingStart="33dp"
+                    android:paddingTop="16dp"
+                    android:paddingEnd="33dp"
+                    android:paddingBottom="16dp"
+                    android:text="@string/try_7_days_for_free_new"
+                    android:textAllCaps="true"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/tvPlayTerms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="12sp"
+                    android:textColor="#c5c5c5"
+                    android:letterSpacing="0.07"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="3dp"
+                    />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="2dp"
+    android:paddingTop="2dp"
+    android:paddingEnd="8dp"
+    android:paddingStart="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shape_widget_back"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/boost"
+            android:gravity="center"
+            android:fontFamily="@font/roboto_medium"
+            android:id="@+id/tvBoost"
+            android:drawablePadding="4dp"
+            android:textSize="10sp"
+            android:layout_marginStart="8dp"
+            android:textColor="@color/btn_white"
+            android:layout_gravity="center_vertical"
+            android:drawableTop="@drawable/ic_widget_boost"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bat"
+            android:drawablePadding="4dp"
+            android:gravity="center"
+            android:fontFamily="@font/roboto_medium"
+            android:id="@+id/tvBattery"
+            android:textSize="10sp"
+            android:textColor="@color/btn_white"
+            android:layout_gravity="center_vertical"
+            android:drawableTop="@drawable/ic_widget_battery"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cpu"
+            android:gravity="center"
+            android:drawablePadding="4dp"
+            android:fontFamily="@font/roboto_medium"
+            android:id="@+id/tvTemp"
+            android:textSize="10sp"
+            android:textColor="@color/btn_white"
+            android:layout_gravity="center_vertical"
+            android:drawableTop="@drawable/ic_widget_temperature"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/delete"
+            android:gravity="center"
+            android:drawablePadding="4dp"
+            android:fontFamily="@font/roboto_medium"
+            android:id="@+id/tvDelete"
+            android:textSize="10sp"
+            android:textColor="@color/btn_white"
+            android:layout_gravity="center_vertical"
+            android:drawableTop="@drawable/ic_widget_delete"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/other"
+            android:gravity="center"
+            android:drawablePadding="4dp"
+            android:fontFamily="@font/roboto_medium"
+            android:id="@+id/tvOther"
+            android:textSize="10sp"
+            android:layout_marginEnd="8dp"
+            android:textColor="@color/btn_white"
+            android:layout_gravity="center_vertical"
+            android:drawableTop="@drawable/ic_widget_other"/>
+
+    </LinearLayout>
+
+</FrameLayout>

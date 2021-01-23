@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="hh_remaining"                             >6  saat 0  dakika kaldı</string>
+    <string name="hhh_remaining"                            >8  saat 25 dakika kaldı</string>
+    <string name="hhhh_remaining"                           >12 saat 55 dakika kaldı</string>
+    <string name="hhhhh_remaining"                          >19 saat 2  dakika kaldı</string>
+    <string name="hhhhhh_remaining"                         >22 saat 0  dakika kaldı</string>
+    <string name="hhhhhhh_remaining"                        >28 saat 15 dakika kaldı</string>
+    <string name="hhhhhhhh_remaining"                       >30 saat 55 dakika kaldı</string>
+    <string name="hhhhhhhhh_remaining"                      >38 saat 5  dakika kaldı</string>
+    <string name="hhhhhhhhhh_remaining"                     >60 saat 0  dakika kaldı</string>
+
+
+    <string name="title_notefication"                       >Performans Sorunu</string>
+    <string name="detail_notification"                      >Yüksek miktarda gereksiz dosya nedeniyle telefon Yavaş Çalışıyor.</string>
+    <string name="remove_ads"                               >Reklamları Kaldır</string>
+    <string name="extended_battery_up_to"                   >Şu Süreye Kadar Pil Kullanım Ömrünü Uzat:</string>
+    <string name="battery_remaining"                        >Kalan Pil</string>
+    <string name="h_remaining"                              >3 saat 55 dakika kaldı</string>
+    <string name="this_app_is_already_added"                >Bu Uygulama Zaten Eklendi</string>
+    <string name="cooled_CPU_to"                            >İşlemci 25,3°C\'ye Soğutuldu</string>
+    <string name="MB_of_junk_files_are_cleared"             >MB Gereksiz Dosya Temizlendi</string>
+    <string name="cleared"                                  >Temizlendi</string>
+    <string name="phone_is_already_optimized"               >Telefon Zaten Optimize Edildi</string>
+    <string name="scanning"                                 >TARANIYOR...</string>
+    <string name="found"                                    >Bulundu</string>
+    <string name="storage"                                  >Depolama</string>
+    <string name="optimiing"                                >Optimize ediliyor...</string>
+    <string name="charge_booster"                           >Şarj Hızlandırıcı</string>
+    <string name="used_mem"                                 >kullanılan bel. (bellek)</string>
+    <string name="crystal_clear"                            >Çok açık</string>
+    <string name="no_junk_files_already_cleaned"            >Henüz Herhangi Bir Gereksiz Dosya Silinmedi.</string>
+    <string name="junk_cleaner"                             >Gereksiz Dosya Temizleyici</string>
+    <string name="currently_no_app_causing_overheating"     >Şu Anda Herhangi Bir Uygulama Aşırı Isınmaya Neden Olmuyor</string>
+    <string name="normal"                                   >normal</string>
+    <string name="cpu_temperature_is_good"                  >İşlemci Sıcaklığı İYİ</string>
+    <string name="cpu_temperature_is_already_normal"        >İşlemci Sıcaklığı Zaten Normal</string>
+    <string name="cpu_cooler"                               >İşlemci Soğutucu</string>
+    <string name="battery_saver"                            >Pil Koruyucu</string>
+    <string name="running_processes"                        >Çalışan İşlemler</string>
+    <string name="ram_usage"                                >Ram Kullanımı</string>
+    <string name="charging_time_remaning"                   >kalan şarj süresi</string>
+    <string name="overheated"                               >Aşırı ısınmış</string>
+    <string name="application_class_problem"                >ApplicationsClass soruna neden oluyor, soğut öğesine basın</string>
+    <string name="cooling_cpu"                              >İşlemci Soğutuluyor</string>
+    <string name="storage2"                                 >depolama</string>
+    <string name="apply"                                    >Uygula</string>
+    <string name="extended_battery_up_to_10h_30m"           >Pil Kullanım Ömrü 10 saat 30 dakika olarak uzatıldı</string>
+    <string name="add"                                      >Ekle</string>
+    <string name="ultra_power_saving_mode"                  >Ultra Enerji Tasarrufu Modu</string>
+    <string name="disable_extreme_power_saving_mode"        >Aşırı Enerji Tasarruf Modunu Devre Dışı Bırak</string>
+    <string name="camera"                                   >Kamera</string>
+    <string name="calculator"                               >Hesap Makinesi</string>
+    <string name="alaram"                                   >Alarm</string>
+    <string name="map"                                      >Harita</string>
+    <string name="play_store"                               >Play Store</string>
+    <string name="limited_apps_are_avalible_and_some_apps_and_features_may_not_work_when_ultra_power_saving_mode_is_enabled"
+        >Sınırlı Uygulamalar mevcut ve Bazı Uygulamalar ve Özellikler Ultra Güç Tasarruf Modu Etkinleştirildiğinde çalışmayabilir.</string>
+    <string name="add_applications"                         >Uygulama ekle</string>
+    <string name="my_message"                               >Mesajım</string>
+    <string name="decreasing_brightness_upto_90"            >%90\'a Varan Oranda Parlaklık Azaltılıyor</string>
+    <string name="decreasing_device_performance"            >Cihaz Performansı Azaltılıyor</string>
+    <string name="closing_background_apps_and_services"     >Arka Plan Uygulamaları ve Hizmetleri Kapanıyor</string>
+    <string name="locking_acess_to_power_consuming_apps"    >Güç Tüketen Uygulamalara Erişim Kilitleniyor</string>
+    <string name="closing_all_power_consuming_functions"    >Tüm Güç Tüketen Fonksiyonlar Kapatılıyor</string>
+    <string name="optimize"                                 >Optimize Et</string>
+    <string name="optimized"                                >Optimize Edildi</string>
+    <string name="battery_power_20"                         >Pil Gücü %20</string>
+    <string name="_16h_21m_remaning"                        >16 saat 21 dakika kaldı</string>
+    <string name="extreme"                                  >Aşırı</string>
+    <string name="normal_mode"                              >Normal</string>
+    <string name="ultra"                                    >Ultra</string>
+    <string name="cool_down"                                >Soğut</string>
+    <string name="cooled"                                   >Soğutuldu</string>
+    <string name="clean"                                    >Temizle</string>
+    <string name="cleaned"                                  >Temizlendi</string>
+    <string name="cache_memory"                             >Önbellek Hafızası</string>
+    <string name="temporary_files"                          >Geçici Dosyalar</string>
+    <string name="residual_files"                           >Atık Dosyalar</string>
+    <string name="system_junk"                              >Sistem Gereksiz Dosyaları</string>
+    <string name="cpu_scanner1"                             >Parlaklığı En Fazla %80\'le Sınırla</string>
+    <string name="cpu_scanner2"                             >Cihaz Performansını Azalt</string>
+    <string name="cpu_scanner3"                             >Tüm Pil Tüketen ApplicationsClass Uygulamalarını Kapat</string>
+    <string name="cpu_scanner4"                             >Bluetooth, Ekran Döndürme, Eşitleme vb. gibi Sistem Hizmetleri kapanıyor</string>
+</resources>

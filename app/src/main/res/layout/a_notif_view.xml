@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginRight="4dp"
+    android:layout_marginLeft="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:background="@color/btn_white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="normal"
+        android:textColor="#c0000000"
+        android:letterSpacing="0.02"
+        android:lineSpacingExtra="6sp"
+        android:text="@string/messages"
+        android:drawableStart="@drawable/ic_notif_mail"
+        android:drawablePadding="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="#c0000000"
+        android:letterSpacing="0.02"
+        android:lineSpacingExtra="6sp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="11dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/you_have_a_new_message"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:src="@drawable/ic_notif_arrow"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"/>
+
+
+</FrameLayout>

@@ -1,0 +1,327 @@
+<resources>
+
+    <string name="privacy_police" translatable="false"><u>Privacy Policy</u></string>
+    <string name="free" translatable="false">free</string>
+    <string name="used_apps" translatable="false">used_apps</string>
+    <string name="remove" translatable="false">remove</string>
+
+    <string name="cache" translatable="false">cache</string>
+    <string name="ok" translatable="false">ok</string>
+    <string name="accesibilityService" translatable="false">Magic Cleaner service</string>
+    <string name="serviceDescription" translatable="false">This service clean your app cache. We don`t use your private information.</string>
+
+
+    <string name="app_name" translatable="false">Magic cleaner PRO</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="facebook_app_id" translatable="false">2925161510862306</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb2925161510862306</string>
+
+    <string name="banner_key" translatable="false">ca-app-pub-3050564412171997/5125096376</string>
+    <string name="banner_key_test" translatable="false">ca-app-pub-3050564412171997/3540551968</string>
+    <string name="interstitial" translatable="false">ca-app-pub-3050564412171997/3428871323</string>
+    <string name="native_ad" translatable="false">ca-app-pub-3050564412171997/8693123528</string>
+    <string name="ab_native_ad" translatable="false">ca-app-pub-3050564412171997/5875388496</string>
+    <string name="admob_id" translatable="false">ca-app-pub-3050564412171997~1647153543</string>
+
+    <!--Test-->
+    <!--<string name="admob_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_key" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_key_test" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="native_ad" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="ab_native_ad" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+
+    <string name="byte_short" translatable="false">B</string>
+    <!-- Suffix added to a number to signify size in kilobytes. -->
+    <string name="kilo_byte_short" translatable="false">KB</string>
+    <!-- Suffix added to a number to signify size in megabytes. -->
+    <string name="mega_byte_short" translatable="false">MB</string>
+    <!-- Suffix added to a number to signify size in gigabytes. -->
+    <string name="giga_byte_short" translatable="false">GB</string>
+    <!-- Suffix added to a number to signify size in terabytes. -->
+    <string name="tera_byte_short" translatable="false">TB</string>
+    <!-- Suffix added to a number to signify size in petabytes. -->
+    <string name="peta_byte_short" translatable="false">PB</string>
+    <string name="clean_file_size_suffix" translatable="false">%1$s%2$s</string>
+    <string name="system_cache" translatable="false">System cache</string>
+
+    <string name="title_notefication">Performnace Issue</string>
+    <string name="detail_notification">Phone is Performing Slow due to Large amount of junk files.</string>
+    <string name="remove_ads">Remove Ads</string>
+    <string name="extended_battery_up_to">Extended Battery Up to</string>
+    <string name="battery_remaining">Battery Remaning</string>
+    <string name="h_remaining">3h 55m remaning</string>
+    <string name="hh_remaining">6h 0m remaning</string>
+    <string name="hhh_remaining">8h 25m remaning</string>
+    <string name="hhhh_remaining">12h 55m remaning</string>
+    <string name="hhhhh_remaining">19h 2m remaning</string>
+    <string name="hhhhhh_remaining">22h 0m remaning</string>
+    <string name="hhhhhhh_remaining">28h 15m remaning</string>
+    <string name="hhhhhhhh_remaining">30h 55m remaning</string>
+    <string name="hhhhhhhhh_remaining">38h 5m remaning</string>
+    <string name="hhhhhhhhhh_remaining">60h 0m remaning</string>
+    <string name="this_app_is_already_added">This App Is Already Added</string>
+    <string name="cooled_CPU_to">Cooled CPU to 25.3°C</string>
+    <string name="is_optimised_by" translatable="false"><![CDATA[Is Optimized by Fast Cleaner & Battery Saver.]]></string>
+    <string name="MB_of_junk_files_are_cleared">MB of Junk Files Are Cleared</string>
+    <string name="MB" translatable="false">MB</string>
+    <string name="cleared">Cleared</string>
+    <string name="phone_is_already_optimized">Phone Is Already Optimized</string>
+    <string name="scanning">SCANNING...</string>
+    <string name="found">Found</string>
+    <string name="storage">Storage</string>
+    <string name="optimiing">Optimizing...</string>
+    <string name="charge_booster">Charge Booster</string>
+    <string name="used_mem">used mem</string>
+    <string name="crystal_clear">Crystal clear</string>
+    <string name="no_junk_files_already_cleaned">No Junk Files ALready Cleaned.</string>
+    <string name="junk_cleaner">Junk Cleaner</string>
+    <string name="currently_no_app_causing_overheating">Currently No App causing Overheating</string>
+    <string name="normal">normal</string>
+    <string name="cpu_temperature_is_good">CPU Temperature is GOOD</string>
+    <string name="cpu_temperature_is_already_normal">CPU Temperature is Already Normal.</string>
+    <string name="cpu_cooler">CPU Cooler</string>
+    <string name="battery_saver">Battery Saver</string>
+    <string name="running_processes">Running Processes</string>
+    <string name="ram_usage">Ram Usage</string>
+    <string name="charging_time_remaning">charging time remaning</string>
+    <string name="overheated">Overheated</string>
+    <string name="application_class_problem">Applications Class are causing problem hit cool down</string>
+    <string name="cooling_cpu">Cooling CPU</string>
+    <string name="storage2">storage</string>
+    <string name="apply">Apply</string>
+    <string name="extended_battery_up_to_10h_30m">Extended Battery Up to 10h 30m</string>
+    <string name="_10_h_30m" translatable="false">(+10 h 30m)</string>
+    <string name="add">Add</string>
+    <string name="ultra_power_saving_mode">Ultra Power Saving Mode</string>
+    <string name="disable_extreme_power_saving_mode">Disable Extreme Power Saving Mode</string>
+    <string name="camera">Camera</string>
+    <string name="calculator">Calculator</string>
+    <string name="alaram">Alaram</string>
+    <string name="map">Map</string>
+    <string name="play_store">Play Store</string>
+    <string name="limited_apps_are_avalible_and_some_apps_and_features_may_not_work_when_ultra_power_saving_mode_is_enabled">Limited Apps are avalible and Some Apps and Features may not work when Ultra Power Saving Mode is Enabled.</string>
+    <string name="add_applications">Add applications</string>
+    <string name="my_message">My message</string>
+    <string name="decreasing_brightness_upto_90">Decreasing Brightness Upto 90%</string>
+    <string name="decreasing_device_performance">Decreasing Device Performance</string>
+    <string name="closing_background_apps_and_services">Closing Background Apps and Services</string>
+    <string name="locking_acess_to_power_consuming_apps">Locking Acess To Power Consuming Apps</string>
+    <string name="closing_all_power_consuming_functions">Closing All Power Consuming Functions</string>
+    <string name="optimize">Optimize</string>
+    <string name="optimized">Optimized</string>
+    <string name="battery_power_20">Battery Power 20%</string>
+    <string name="_16h_21m_remaning">16h 21m remaning</string>
+    <string name="extreme">Extreme</string>
+    <string name="normal_mode">Normal</string>
+    <string name="ultra">Ultra</string>
+    <string name="cool_down">Cool Down</string>
+    <string name="cooled">Cooled</string>
+    <string name="clean">Clean</string>
+    <string name="cleaned">Cleaned</string>
+    <string name="cache_memory">Cache Memory</string>
+    <string name="temporary_files">Temporary Files</string>
+    <string name="residual_files">Residual Files</string>
+    <string name="system_junk">System Junk</string>
+    <string name="cpu_scanner1">Limit Brightness Up to 80%</string>
+    <string name="cpu_scanner2">Decrease Device Performance</string>
+    <string name="cpu_scanner3">Close All Battery Consuming ApplicationsClass</string>
+    <string name="cpu_scanner4">Closes System Services like Bluetooth,Screen Rotation,Sync etc.</string>
+
+
+    <string name="pref_key_root" translatable="false">pref_root</string>
+    <string name="pref_key_language" translatable="false">pref_language</string>
+
+
+    <string name="language" translatable="false"></string>
+    <string name="device" translatable="false">Device</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="settings" translatable="false">Settings</string>
+    <string name="sign_in" translatable="false">Sign in</string>
+
+    <string-array name="language_option" translatable="false">
+        <item>English</item>
+        <item>Arabic</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Italian</item>
+        <item>Portugal</item>
+        <item>Spanish</item>
+    </string-array>
+
+    <string-array name="languages" translatable="false">
+        <item>ar</item>
+        <item>en</item>
+        <item>ru</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>it</item>
+        <item>pt</item>
+        <item>es</item>
+    </string-array>
+
+
+    <integer-array name="flags">
+        <item>@drawable/local_ar</item>
+        <item>@drawable/local_en</item>
+        <item>@drawable/local_ru</item>
+        <item>@drawable/local_fr</item>
+        <item>@drawable/local_de</item>
+        <item>@drawable/local_it</item>
+        <item>@drawable/local_pt</item>
+        <item>@drawable/local_es</item>
+    </integer-array>
+
+    <string name="notif_head" translatable="false">Error</string>
+    <string name="notif_body" translatable="false">Increase device performance</string>
+    <string name="cache_clean" translatable="false">cache</string>
+    <string name="apk_clean" translatable="false">apk</string>
+    <string name="tmp_clean" translatable="false">tmp</string>
+    <string name="log_clean" translatable="false">log</string>
+    <string name="process_clean" translatable="false">process</string>
+    <string name="internal_storage" translatable="false">internal storage</string>
+    <string name="system_junked_hard">Hard</string>
+    <string name="system_junked_lite">Clear</string>
+
+
+    <!--AB Testing-->
+    <string name="ab_prof_clean">Professional cleaning with</string>
+    <string name="ab_cleaner">Phone cleaner</string>
+    <string name="ab_ads">Ads free</string>
+    <string name="ab_no_stop">Cleaning the phone without interruptions by ads</string>
+    <string name="ab_cache">Cleaning the application cache</string>
+    <string name="ab_analyze">Phone Cleaner analyzes all the applications on your phone and deletes the cache of unnecessary applications, unless it interferes with your phone\'s operation</string>
+    <string name="ab_boost">Speeding up the phone</string>
+    <string name="ab_background">It closes applications that run in the background to free up RAM and speed up phone operation</string>
+    <string name="ab_cool_cpu">Cooling the CPU</string>
+    <string name="ab_cool_cpu_text">It allows you to effectively cool the CPU temperature of your phone with a single press of a button</string>
+    <string name="ab_battery">Saving battery power</string>
+    <string name="ab_battery_text"> It allows you to close applications with a single tap. When your battery power is low, this feature reminds you to close applications that use up a lot of battery power</string>
+    <string name="ab_next">Next</string>
+    <string name="ab_free_with_ads">Continue using it for free with ads</string>
+    <string name="ab_vip_version">VIP version</string>
+    <string name="ab_unlock">Unlock all content and remove ads in one click!</string>
+    <string name="ab_get_vip">Get the VIP version</string>
+    <string name="ab_bg_text">On average, a phone scan with Phone Cleaner speeds up your phone by 53%</string>
+    <string name="ab_bg_title">It also saves battery power by 47%</string>
+    <string name="ab_please_wait">Please, wait</string>
+    <string name="ab_optimization">Your device is being optimized.</string>
+    <string name="ab_sg_text">On average, Phone Cleaner scan speeds up the phone by 53%</string>
+    <string name="ab_sg_title">It also reduces the chance of a high-tech spy virus infection by 97%</string>
+
+    <string name="no_ban">No banner ads</string>
+    <string name="no_inter">No pop-up ads</string>
+    <string name="service_work">Priority service</string>
+    <string name="prem7"></string>
+    <string name="prem1">No banner ads</string>
+    <string name="prem2">No pop-up ads</string>
+    <string name="prem3">Priority service</string>
+
+    <string name="start_text_prem">7 days trial period. After</string>
+    <string name="end_text_prem">per month. You can manage your subscription in your Google Play account</string>
+    <string name="whole_text_prem">7 days trial period. After 4 USD. per month. You can manage your subscription in your Google Play account</string>
+    <string name="prem4">7 days for free.</string>
+    <string name="prem5">Further subscription for a month</string>
+    <string name="prem6">Further subscription for a month 4 USD</string>
+    <string name="ads_blocking">Ads Blocking</string>
+    <string name="no_more_annoying_ads">No more annoying ADS</string>
+
+    <string name="btn_buy">Try 7 days for free</string>
+
+
+    <string name="messages">MESSAGES</string>
+    <string name="you_have_a_new_message">You have a new message!</string>
+    <string name="attention">Attention!</string>
+    <string name="phone_needs_cleaning">Phone needs cleaning</string>
+    <string name="_14_left">14% left</string>
+    <string name="battery_is_discharged">Battery is discharged</string>
+    <string name="memory_is_running_out">Memory is running out!</string>
+    <string name="_1_0gb_free_memory">1.0GB Free Memory</string>
+    <string name="system_at_risk">system at risk!</string>
+    <string name="start_cleaning_urgently">Start cleaning urgently!</string>
+    <string name="hello">Hello!</string>
+    ////////////////
+    <string name="sure_exit">Do you really want to leave?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+
+    <string name="other">Yet</string>
+    <string name="delete">Delete</string>
+    <string name="cpu">CPU</string>
+    <string name="bat">Battery</string>
+    <string name="boost">Boost</string>
+    <string name="uxcam_id">xm9x33uxodkrm1i</string>
+    <string name="smartlock_id">3c90798651f737920c696fda38d80579359f2a24</string>
+
+
+    <string name="premtest_excuse_us_please">Excuse us please!</string>
+    <string name="premtest_we_didn_t_want">We didn’t want to, but we had to add ads in order to be able to continue maintaining and developing our application, leaving it free of charge.</string>
+    <string name="premtest_skip">I understand</string>
+    <string name="premtest_buy">Disable ads</string>
+    <string name="special_one_time_offer">Special one-time offer</string>
+    <string name="wait">Wait!</string>
+    <string name="if_you_complete_your_purchase_directly_now">If you complete your purchase directly now, you will get a discount</string>
+    <string name="continue_without_ads">Continue without ads</string>
+    <string name="month">/month</string>
+    <string name="use_the_application_without">Use the application without annoying advertising</string>
+    <string name="subscribe_shout">Subscribe</string>
+    <string name="remove_ads_in_the_application">Remove ads in the application forever and ever</string>
+    <string name="offer_is_valid_once">Offer is valid once</string>
+    <string name="remove_ads_alert">Remove ads</string>
+    <string name="_70_discount">70% Discount</string>
+
+    <string name="notif_low_battery_notif">Low battery level</string>
+    <string name="notif_tap_to_extend">Tap to extend the life of the device</string>
+    <string name="notif_removed_app">Removed the app</string>
+    <string name="notif_recommended">It is recommended to clean the system</string>
+    <string name="notif_installed">The app is installed</string>
+    <string name="notif_optimize">Optimize your device</string>
+    <string name="notif_little">Little space</string>
+    <string name="notif_click_to_clear">Click to clear the memory</string>
+
+
+
+
+    <string name="remove_ads_white">Remove ads</string>
+    <string name="description_month">Monthly subscription prolonged automatically for %s</string>
+    <string name="white_month">1 month</string>
+    <string name="white_year">1 year</string>
+    <string name="description_year">Annual subscription prolonged automatically for %s</string>
+    <string name="no_ban_ads_shield">No banner Ads</string>
+    <string name="no_pop_ads_shield">No pop-up Ads</string>
+    <string name="high_speed_shield">High performance</string>
+    <string name="in_month_shield">/month</string>
+    <string name="new_lock_ads_blocking">Ads Blocking</string>
+    <string name="no_more_annoying_ads_new_lock">No more annoying ADS</string>
+    <string name="try_7_days_for_free_new">Try 7 days for free</string>
+    <string name="no_any_ads_flag">No Ads</string>
+    <string name="for_month_flag">For month</string>
+    <string name="for_year_flag">For year</string>
+    <string name="remove_all_ads_black">Disable all ads in the app</string>
+    <string name="in_year_shield">/year</string>
+    <string name="month_terms">7 days trial period. Next %s per month. You can manage your subscriptions in the dashboard on Google Play</string>
+    <string name="year_terms">7 days trial period. Then %s per year. You can manage your subscriptions in the dashboard on Google Play</string>
+
+
+    <!--<string name="remove_ads_white"></string>
+    <string name="description_month"></string>
+    <string name="white_month"></string>
+    <string name="white_year"></string>
+    <string name="description_year"></string>
+    <string name="no_ban_ads_shield"></string>
+    <string name="no_pop_ads_shield"></string>
+    <string name="high_speed_shield"></string>
+    <string name="in_month_shield"></string>
+    <string name="new_lock_ads_blocking"></string>
+    <string name="no_more_annoying_ads_new_lock"></string>
+    <string name="try_7_days_for_free_new"></string>
+    <string name="no_any_ads_flag"></string>
+    <string name="for_month_flag"></string>
+    <string name="for_year_flag"></string>
+    <string name="remove_all_ads_black"></string>
+    <string name="in_year_shield"></string>
+    <string name="month_terms"></string>
+    <string name="year_terms"></string>-->
+
+
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="hh_remaining"                             >6 घंटे 0 मिनट शेष</string>
+    <string name="hhh_remaining"                            >8 घंटे 25 मिनट शेष</string>
+    <string name="hhhh_remaining"                           >12 घंटे 55 मिनट शेष</string>
+    <string name="hhhhh_remaining"                          >19 घंटे 2  मिनट शेष</string>
+    <string name="hhhhhh_remaining"                         >22 घंटे 0  मिनट शेष</string>
+    <string name="hhhhhhh_remaining"                        >28 घंटे 15 मिनट शेष</string>
+    <string name="hhhhhhhh_remaining"                       >30 घंटे 55 मिनट शेष</string>
+    <string name="hhhhhhhhh_remaining"                      >38 घंटे 5  मिनट शेष</string>
+    <string name="hhhhhhhhhh_remaining"                     >60 घंटे 0  मिनट शेष</string>
+
+    <string name="title_notefication"                       >प्रदर्शन समस्या </string>
+    <string name="detail_notification"                      >जंक फ़ाइलों की बड़ी मात्रा के कारण फोन धीमी गति से प्रदर्शन कर रहा है।</string>
+    <string name="remove_ads"                               >विज्ञापन हटाएँ</string>
+    <string name="extended_battery_up_to"                   >निम्न तक बैटरी का कार्यकाल बढ़ाया </string>
+    <string name="battery_remaining"                        >शेष बैटरी</string>
+    <string name="h_remaining"                              >3 घंटे 55 मिनट शेष</string>
+    <string name="this_app_is_already_added"                >इस ऐप को पहले से ही जोड़ा गया है</string>
+    <string name="cooled_CPU_to"                            >25.3 डिग्री सेल्सियस तक CPU ठंडा किया गया</string>
+    <string name="MB_of_junk_files_are_cleared"             >MB जंक फाइलें साफ़ की गई</string>
+    <string name="cleared"                                  >साफ़ की गई</string>
+    <string name="phone_is_already_optimized"               >फोन पहले से ही अनुकूलित है</string>
+    <string name="scanning"                                 >स्कैन कर रहे हैं...</string>
+    <string name="found"                                    >मिल गया</string>
+    <string name="storage"                                  >स्टोरेज</string>
+    <string name="optimiing"                                >अनुकूलन...</string>
+    <string name="charge_booster"                           >चार्ज बूस्टर</string>
+    <string name="used_mem"                                 >प्रयुक्त मेमोरी</string>
+    <string name="crystal_clear"                            >शीशे की तरह साफ</string>
+    <string name="no_junk_files_already_cleaned"            >कोई जंक फ़ाइलें नहीं, पहले से ही साफ कर दी गई।</string>
+    <string name="junk_cleaner"                             >जंक क्लीनर</string>
+    <string name="currently_no_app_causing_overheating"     >वर्तमान में कोई भी ऐप ओवरहीटिंग नहीं कर रही है</string>
+    <string name="normal"                                   >सामान्य</string>
+    <string name="cpu_temperature_is_good"                  >CPU का तापमान सही है</string>
+    <string name="cpu_temperature_is_already_normal"        >CPU तापमान पहले से ही सामान्य है</string>
+    <string name="cpu_cooler"                               >CPU कूलर</string>
+    <string name="battery_saver"                            >बैटरी सेवर</string>
+    <string name="running_processes"                        >चालू प्रोसेस </string>
+    <string name="ram_usage"                                >RAM उपयोग</string>
+    <string name="charging_time_remaning"                   >चार्ज होने का शेष समय</string>
+    <string name="overheated"                               >अत्यधिक गर्म</string>
+    <string name="application_class_problem"                >ApplicationsClass समस्या कर रही है, ठंडा करें को दबाएं </string>
+    <string name="cooling_cpu"                              >कूलिंग CPU</string>
+    <string name="storage2"                                 >स्टोरेज</string>
+    <string name="apply"                                    >लागू करें</string>
+    <string name="extended_battery_up_to_10h_30m"           >10 घंटे 30 मिनट तक बैटरी का कायर्काल बढ़ाया गया</string>
+    <string name="add"                                      >जोड़ें</string>
+    <string name="ultra_power_saving_mode"                  >अल्ट्रा पावर सेविंग मोड</string>
+    <string name="disable_extreme_power_saving_mode"        >एक्सट्रीम पावर सेविंग मोड को अक्षम करें</string>
+    <string name="camera"                                   >कैमरा</string>
+    <string name="calculator"                               >कैलकुलेटर</string>
+    <string name="alaram"                                   >अलार्म</string>
+    <string name="map"                                      >नक्शा</string>
+    <string name="play_store"                               >प्ले स्टोर</string>
+    <string name="limited_apps_are_avalible_and_some_apps_and_features_may_not_work_when_ultra_power_saving_mode_is_enabled"
+                                                            >सीमित ऐप्स उपलब्ध हैं और जब अल्ट्रा पावर सेविंग मोड सक्षम है तो कुछ ऐप और विशेषताएं काम नहीं करती हैं।</string>
+    <string name="add_applications"                         >एप्लिकेशन जोड़ें</string>
+    <string name="my_message"                               >मेरा संदेश</string>
+    <string name="decreasing_brightness_upto_90"            >90% तक चमक कर करना</string>
+    <string name="decreasing_device_performance"            >डिवाइस प्रदर्शन कम करना</string>
+    <string name="closing_background_apps_and_services"     >पृष्ठभूमि ऐप्स और सेवाएँ बंद करना</string>
+    <string name="locking_acess_to_power_consuming_apps"    >पावर की खपत करने वाली ऐप्स की पहुँच लॉक करना</string>
+    <string name="closing_all_power_consuming_functions"    >पावर की खपत करने वाले सभी फंक्शंस को बंद करना</string>
+    <string name="optimize"                                 >अनुकूलित करें </string>
+    <string name="optimized"                                >अनुकूलित</string>
+    <string name="battery_power_20"                         >बैटरी पावर 20%</string>
+    <string name="_16h_21m_remaning"                        >16 घंटे 21 मिनट शेष</string>
+    <string name="extreme"                                  >एक्सट्रीम</string>
+    <string name="normal_mode"                              >सामान्य</string>
+    <string name="ultra"                                    >अल्ट्रा</string>
+    <string name="cool_down"                                >ठंडा करें</string>
+    <string name="cooled"                                   >ठंडा किया</string>
+    <string name="clean"                                    >साफ़ करें</string>
+    <string name="cleaned"                                  >साफ़ किया</string>
+    <string name="cache_memory"                             >कैशे मेमरी</string>
+    <string name="temporary_files"                          >अस्थायी फ़ाइलें</string>
+    <string name="residual_files"                           >अवशिष्ट फ़ाइलें</string>
+    <string name="system_junk"                              >सिस्टम जंक</string>
+    <string name="cpu_scanner1"                             >80% तक चमक सीमित करें</string>
+    <string name="cpu_scanner2"                             >डिवाइस प्रदर्शन में कमी</string>
+    <string name="cpu_scanner3"                             >बैटरी की खपत करने वाली सभी ApplicationsClass बंद करें</string>
+    <string name="cpu_scanner4"                             >सिस्टम सेवाएं जैसे ब्लूटूथ, स्क्रीन रोटेशन, सिंक आदि को बंद कर देता है।</string>
+</resources>

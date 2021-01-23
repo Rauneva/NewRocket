@@ -1,0 +1,57 @@
+{
+  "project_info": {
+    "project_number": "721126975556",
+    "firebase_url": "https://project-4469471152963464903.firebaseio.com",
+    "project_id": "project-4469471152963464903",
+    "storage_bucket": "project-4469471152963464903.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721126975556:android:76c37368fef8bcf78eb411",
+        "android_client_info": {
+          "package_name": "com.clean.emptyrocket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721126975556-r3r7ba61jcnpv3l69p7bb4kp444kr8sk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.clean.emptyrocket",
+            "certificate_hash": "d37418faf039eb0dd135a5be5642ae0a639136fb"
+          }
+        },
+        {
+          "client_id": "721126975556-3574lbgtv39vbq1pfdt5evbclvb85elr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.clean.emptyrocket",
+            "certificate_hash": "ca5b205c3a30b6258addde920df1f0e854dd2b8a"
+          }
+        },
+        {
+          "client_id": "721126975556-lklevpke4htu6uucmim81kd75s3r4fu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKAVklhFR9_6kubsOFUrlv4bsJpRvM3XQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721126975556-vc7scljcl8oru3qp8hrl979ls5ecqc8g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-3050564412171997~1647153543"
+    }
+  ],
+  "configuration_version": "1"
+}

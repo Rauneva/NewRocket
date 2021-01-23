@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#27282D">
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:weightSum="1000"
+      android:background="#27282D"
+      >
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="23dp"
+        app:srcCompat="@drawable/img_diamond"
+        android:layout_weight="159"
+        />
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="27dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/ab_vip_version"
+        android:textColor="@color/btn_white"
+        android:textSize="20sp"
+        android:layout_weight="39"
+        />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="80dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center"
+        android:layout_weight="56"
+        android:text="@string/ab_unlock"
+        android:textColor="@color/btn_white"
+        android:textSize="14sp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="37dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp">
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="#27282D">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/img_no_ads"
+            android:layout_gravity="center|start"
+            android:layout_marginBottom="28dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginStart="18dp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/img_key"
+            android:layout_gravity="center|end"
+            android:layout_marginBottom="28dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="18dp"
+            />
+      </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/btnPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_optimize"
+        android:text="@string/ab_get_vip"
+        android:textAllCaps="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="56dp"
+        android:textColor="@color/btn_white"
+        android:textSize="15sp"
+        android:fontFamily="@font/roboto_bold"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/btn_white"
+        android:text="@string/ab_free_with_ads"
+        android:fontFamily="@font/roboto_medium"
+        android:layout_marginTop="16dp"
+        android:layout_weight="28"
+        android:id="@+id/tvNext"
+        android:layout_marginBottom="56dp"/>
+
+
+
+  </LinearLayout>
+</ScrollView>

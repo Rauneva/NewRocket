@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="hh_remaining"                             >6  שע\' 0  ד\' נשארו</string>
+    <string name="hhh_remaining"                            >8  שע\' 25 ד\' נשארו</string>
+    <string name="hhhh_remaining"                           >12 שע\' 55 ד\' נשארו</string>
+    <string name="hhhhh_remaining"                          >19 שע\' 2  ד\' נשארו</string>
+    <string name="hhhhhh_remaining"                         >22 שע\' 0  ד\' נשארו</string>
+    <string name="hhhhhhh_remaining"                        >28 שע\' 15 ד\' נשארו</string>
+    <string name="hhhhhhhh_remaining"                       >30 שע\' 55 ד\' נשארו</string>
+    <string name="hhhhhhhhh_remaining"                      >38 שע\' 5  ד\' נשארו</string>
+    <string name="hhhhhhhhhh_remaining"                     >60 שע\' 0  ד\' נשארו</string>
+
+    <string name="title_notefication"                       >בעיית ביצועים</string>
+    <string name="detail_notification"                      >הטלפון פועל לאט עקב כמות גדולה של קבצי זבל.</string>
+    <string name="remove_ads"                               >הסר מודעות</string>
+    <string name="extended_battery_up_to"                   >הארכת חיי הסוללה עד</string>
+    <string name="battery_remaining"                        >סוללה שנותרה</string>
+    <string name="h_remaining"                              >3 שע\' 55 ד\' נשארו</string>
+    <string name="this_app_is_already_added"                >האפליקציה כבר נוספה</string>
+    <string name="cooled_CPU_to"                            >המעבד קורר ל-25.3° צלזיוס</string>
+    <string name="MB_of_junk_files_are_cleared"             >מ"ב של קובצי זבל נוקו</string>
+    <string name="cleared"                                  >נוקו</string>
+    <string name="phone_is_already_optimized"               >הטלפון כבר במצב מיטבי</string>
+    <string name="scanning"                                 >סורק...</string>
+    <string name="found"                                    >נמצאו</string>
+    <string name="storage"                                  >אחסון</string>
+    <string name="optimiing"                                >ממטב...</string>
+    <string name="charge_booster"                           >מאיץ טעינה</string>
+    <string name="used_mem"                                 >זיכרון בשימוש</string>
+    <string name="crystal_clear"                            >נקי לגמרי</string>
+    <string name="no_junk_files_already_cleaned"            >עדיין אין קובצי זבל שנוקו</string>
+    <string name="junk_cleaner"                             >מנקה זבל</string>
+    <string name="currently_no_app_causing_overheating"     >כרגע אין אפליקציה שגורמת להתחממות יתר</string>
+    <string name="normal"                                   >רגיל</string>
+    <string name="cpu_temperature_is_good"                  >טמפרטורת המעבד טובה.</string>
+    <string name="cpu_temperature_is_already_normal"        >טמפרטורת המעבד כבר רגילה</string>
+    <string name="cpu_cooler"                               >מקרר מעבד</string>
+    <string name="battery_saver"                            >חוסך סוללה</string>
+    <string name="running_processes"                        >תהליכים מופעלים</string>
+    <string name="ram_usage"                                >שימוש ב-RAM</string>
+    <string name="charging_time_remaning"                   >זמן לטעינה מלאה</string>
+    <string name="overheated"                               >התחמם מדי</string>
+    <string name="application_class_problem"                >אפליקציות גורמות לבעיה, לחצו כדי לקרר</string>
+    <string name="cooling_cpu"                              >מקרר מעבד</string>
+    <string name="storage2"                                 >אחסון</string>
+    <string name="apply"                                    >החל</string>
+    <string name="extended_battery_up_to_10h_30m"           >מאריך את חיי הסוללה עד 10 שע\' ו-30 ד\'</string>
+    <string name="add"                                      >הוספה</string>
+    <string name="ultra_power_saving_mode"                  >מצב חיסכון מוגבר בסוללה</string>
+    <string name="disable_extreme_power_saving_mode"        >השבת מצב חיסכון מוגבר בסוללה</string>
+    <string name="camera"                                   >מצלמה</string>
+    <string name="calculator"                               >מחשבון</string>
+    <string name="alaram"                                   >התראה</string>
+    <string name="map"                                      >מפה</string>
+    <string name="play_store"                               >Play Store</string>
+    <string name="limited_apps_are_avalible_and_some_apps_and_features_may_not_work_when_ultra_power_saving_mode_is_enabled"
+        >במצב חיסכון מוגבר בסוללה ניתן להשתמש רק בכמות מוגבלת של האפליקציות; ייתכן שאפליקציות ותכונות אחרות לא יפעלו.</string>
+    <string name="add_applications"                         >הוסף אפליקציות</string>
+    <string name="my_message"                               >ההודעה שלי</string>
+    <string name="decreasing_brightness_upto_90"            >מפחית עד 90% מהבהירות</string>
+    <string name="decreasing_device_performance"            >מפחית את ביצועי המכשיר</string>
+    <string name="closing_background_apps_and_services"     >סוגר אפליקציות ושירותים הפועלים ברקע</string>
+    <string name="locking_acess_to_power_consuming_apps"    >נועל גישה לאפליקציות זוללות סוללה</string>
+    <string name="closing_all_power_consuming_functions"    >סוגר את כל התכונות זוללות הסוללה</string>
+    <string name="optimize"                                 >מבצע מיטוב</string>
+    <string name="optimized"                                >ממוטב</string>
+    <string name="battery_power_20"                         >20% סוללה </string>
+    <string name="_16h_21m_remaning"                        >16 שע\' 21 ד\' נותרו</string>
+    <string name="extreme"                                  >קיצוני</string>
+    <string name="normal_mode"                              >רגיל</string>
+    <string name="ultra"                                    >מוגבר</string>
+    <string name="cool_down"                                >קירור</string>
+    <string name="cooled"                                   >קורר</string>
+    <string name="clean"                                    >ניקוי</string>
+    <string name="cleaned"                                  >נוקה</string>
+    <string name="cache_memory"                             >זיכרון מטמון</string>
+    <string name="temporary_files"                          >קבצים זמניים</string>
+    <string name="residual_files"                           >שאריות קבצים</string>
+    <string name="system_junk"                              >קובצי זבל של המערכת</string>
+    <string name="cpu_scanner1"                             >מפחית עד 80% מהבהירות</string>
+    <string name="cpu_scanner2"                             >הפחת את ביצועי המכשיר</string>
+    <string name="cpu_scanner3"                             >סגירת כל האפליקציות זוללות סוללה</string>
+    <string name="cpu_scanner4"                             >סוגר שירותי מערכת כמו Bluetooth, סיבוב מסך, סנכרון ועוד.</string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="hh_remaining"                             ></string>
+    <string name="hhh_remaining"                            ></string>
+    <string name="hhhh_remaining"                           ></string>
+    <string name="hhhhh_remaining"                          ></string>
+    <string name="hhhhhh_remaining"                         ></string>
+    <string name="hhhhhhh_remaining"                        ></string>
+    <string name="hhhhhhhh_remaining"                       ></string>
+    <string name="hhhhhhhhh_remaining"                      ></string>
+    <string name="hhhhhhhhhh_remaining"                     ></string>
+
+    <string name="title_notefication"                       >مشکل در عملکرد</string>
+    <string name="detail_notification"                      >گوشی به دلیل فایل‌های بزرگ و خراب، کند شده است.</string>
+    <string name="remove_ads"                               >برداشتن تبلیغات</string>
+    <string name="extended_battery_up_to"                   >بیشتر کردن عمر باتری تا</string>
+    <string name="battery_remaining"                        >باتری باقی‌مانده</string>
+    <string name="h_remaining"                              >۳ ساعت و ۵۵ دقیقه باقی‌مانده</string>
+    <string name="this_app_is_already_added"                >اپلیکیشن از قبل اضافه شده است</string>
+    <string name="cooled_CPU_to"                            >سی‌پی‌یو تا ۲۵.۳ درجه سانتی‌گراد سرد شد</string>
+    <string name="MB_of_junk_files_are_cleared"             >مگابایت از فایل‌های خراب پاک شدند</string>
+    <string name="cleared"                                  >پاک شد</string>
+    <string name="phone_is_already_optimized"               >گوشی از قبل بهینه شده است</string>
+    <string name="scanning"                                 >در حال اسکن کردن...</string>
+    <string name="found"                                    >پیدا شد</string>
+    <string name="storage"                                  >فضای ذخیره‌سازی</string>
+    <string name="optimiing"                                >در حال بهینه‌سازی...</string>
+    <string name="charge_booster"                           >تقویت شارژ</string>
+    <string name="used_mem"                                 >حافظه‌ی استفاده شده</string>
+    <string name="crystal_clear"                            >شفاف بلوری</string>
+    <string name="no_junk_files_already_cleaned"            >هنوز فایل خرابی پاک نشده است</string>
+    <string name="junk_cleaner"                             >پاک‌کننده‌ی فایل‌های خراب</string>
+    <string name="currently_no_app_causing_overheating"     >در حال حاضر هیچ اپلیکیشینی باعث داغ شدن بیش از حد نمی‌شود</string>
+    <string name="normal"                                   >عادی</string>
+    <string name="cpu_temperature_is_good"                  >دمای سی‌پی‌یو خوب است</string>
+    <string name="cpu_temperature_is_already_normal"        >دمای سی‌پی‌یو همین الان هم عادی است</string>
+    <string name="cpu_cooler"                               >خنک‌کننده‌ی سی‌پی‌یو</string>
+    <string name="battery_saver"                            >ذخیره‌ی باتری</string>
+    <string name="running_processes"                        >برنامه‌های در حال اجرا</string>
+    <string name="ram_usage"                                >حافظه‌ی رم استفاده شده</string>
+    <string name="charging_time_remaning"                   >زمان باقی‌مانده برای شارژ</string>
+    <string name="overheated"                               >بیش از اندازه داغ شده</string>
+    <string name="application_class_problem"                >ApplicationsClass مشکلاتی را به وجود میاورد که جلوی خنک شدن سی‌پی‌یو گرفته می‌شود</string>
+    <string name="cooling_cpu"                              >در حال سرد کردن سی‌پی‌یو</string>
+    <string name="storage2"                                 >حافظه</string>
+    <string name="apply"                                    >اجرا</string>
+    <string name="extended_battery_up_to_10h_30m"           >گوشی بیشتر و تا ۱۰ ساعت و ۳۰ دقیقه شارژ نگه می‌دارد</string>
+    <string name="add"                                      >اضافه کردن</string>
+    <string name="ultra_power_saving_mode"                  >حالت ذخیره‌ی شارژ فوق‌العاده</string>
+    <string name="disable_extreme_power_saving_mode"        >غیر فعال کردن حالت ذخیره‌ی شارژ شدید</string>
+    <string name="camera"                                   >دوربین</string>
+    <string name="calculator"                               >ماشین‌حساب</string>
+    <string name="alaram"                                   >زنگ هشدار</string>
+    <string name="map"                                      >نقشه</string>
+    <string name="play_store"                               >فروشگاه پلی </string>
+    <string name="limited_apps_are_avalible_and_some_apps_and_features_may_not_work_when_ultra_power_saving_mode_is_enabled"
+        >اپلیکیشن‌های محدودی در دسترس هستند و ممکن است بعضی اپلیکیشن‌ها و امکانات در حالت ذخیره‌ی شارژ کار نکنند</string>
+    <string name="add_applications"                         >اضافه کردن اپلیکیشن</string>
+    <string name="my_message"                               >پیام من</string>
+    <string name="decreasing_brightness_upto_90"            >کم کردن نور صفحه تا ۹۰ درصد</string>
+    <string name="decreasing_device_performance"            >کم کردن کارایی دستگاه</string>
+    <string name="closing_background_apps_and_services"     >بستن اپلیکیشن‌ها و خدمات پس‌زمینه</string>
+    <string name="locking_acess_to_power_consuming_apps"    >بستن دسترسی به اپلیکیشن‌هایی که شارژ زیادی استفاده می‌کنند</string>
+    <string name="closing_all_power_consuming_functions"    >بستن تمامی عملکرد‌هایی که شارژ زیادی استفاده می‌کنند</string>
+    <string name="optimize"                                 >بهینه‌سازی</string>
+    <string name="optimized"                                >بهینه‌سازی انجام شد</string>
+    <string name="battery_power_20"                         >۲۰ درصد توان باتری</string>
+    <string name="_16h_21m_remaning"                        >۱۶ ساعت و ۲۱ دقیقه باقی‌مانده است</string>
+    <string name="extreme"                                  >شدید</string>
+    <string name="normal_mode"                              >عادی</string>
+    <string name="ultra"                                    >فوق‌العاده</string>
+    <string name="cool_down"                                >سرد کردن</string>
+    <string name="cooled"                                   >سرد شد</string>
+    <string name="clean"                                    >پاک کردن</string>
+    <string name="cleaned"                                  >پاک شد</string>
+    <string name="cache_memory"                             >حافظه‌ی کش</string>
+    <string name="temporary_files"                          >فایل‌های موقت</string>
+    <string name="residual_files"                           >فایل‌های ثابت</string>
+    <string name="system_junk"                              >فایل‌های خراب سیستمی</string>
+    <string name="cpu_scanner1"                             >نور محدود به ۸۰ درصد</string>
+    <string name="cpu_scanner2"                             >کم کردن عملکرد دستگاه</string>
+    <string name="cpu_scanner3"                             >بستن تمام ApplicationsClass هایی که شارژ زیادی مصرف می‌کنند</string>
+    <string name="cpu_scanner4"                             >تمام خدمات سیستم مثل بلوتوث، چرخش خودکار صفحه، همگام‌سازی و غیره را بست.</string>
+</resources>

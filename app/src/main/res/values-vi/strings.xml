@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="hh_remaining"                             >Còn 6  giờ 0  phút</string>
+    <string name="hhh_remaining"                            >Còn 8  giờ 25 phút</string>
+    <string name="hhhh_remaining"                           >Còn 12 giờ 55 phút</string>
+    <string name="hhhhh_remaining"                          >Còn 19 giờ 2  phút</string>
+    <string name="hhhhhh_remaining"                         >Còn 22 giờ 0  phút</string>
+    <string name="hhhhhhh_remaining"                        >Còn 28 giờ 15 phút</string>
+    <string name="hhhhhhhh_remaining"                       >Còn 30 giờ 55 phút</string>
+    <string name="hhhhhhhhh_remaining"                      >Còn 38 giờ 5  phút</string>
+    <string name="hhhhhhhhhh_remaining"                     >Còn 60 giờ 0  phút</string>
+
+
+    <string name="title_notefication"                       >Vấn đề hiệu suất</string>
+    <string name="detail_notification"                      >Điện thoại đang hoạt động chậm do số lượng lớn tệp rác.</string>
+    <string name="remove_ads"                               >Xóa quảng cáo</string>
+    <string name="extended_battery_up_to"                   >Đã kéo dài pin lên đến</string>
+    <string name="battery_remaining"                        >Pin còn lại</string>
+    <string name="h_remaining"                              >Còn 3 giờ 55 phút</string>
+    <string name="this_app_is_already_added"                >Ứng dụng này đã được thêm vào</string>
+    <string name="cooled_CPU_to"                            >Đã làm mát CPU xuống 25,3°C</string>
+    <string name="MB_of_junk_files_are_cleared"             >MB tệp rác đã được xóa</string>
+    <string name="cleared"                                  >Đã xóa</string>
+    <string name="phone_is_already_optimized"               >Điện thoại đã được tối ưu hóa</string>
+    <string name="scanning"                                 >ĐANG QUÉT...</string>
+    <string name="found"                                    >Đã phát hiện</string>
+    <string name="storage"                                  >Bộ nhớ</string>
+    <string name="optimiing"                                >Đang tối ưu hóa ...</string>
+    <string name="charge_booster"                           >Tăng cường sạc</string>
+    <string name="used_mem"                                 >bộ nhớ đã dùng</string>
+    <string name="crystal_clear"                            >Rõ như tinh thể</string>
+    <string name="no_junk_files_already_cleaned"            >Không có tập tin rác đã được làm sạch.</string>
+    <string name="junk_cleaner"                             >Trình làm sạch tệp rác</string>
+    <string name="currently_no_app_causing_overheating"     >Hiện tại không có ứng dụng nào gây ra quá nhiệt</string>
+    <string name="normal"                                   >bình thường</string>
+    <string name="cpu_temperature_is_good"                  >Nhiệt độ CPU là TỐT</string>
+    <string name="cpu_temperature_is_already_normal"        >Nhiệt độ CPU đã Bình thường</string>
+    <string name="cpu_cooler"                               >Trình làm mát CPU</string>
+    <string name="battery_saver"                            >Trình tiết kiệm pin</string>
+    <string name="running_processes"                        >Quy trình đang chạy</string>
+    <string name="ram_usage"                                >Mức sử dụng RAM</string>
+    <string name="charging_time_remaning"                   >thời gian sạc còn lại</string>
+    <string name="overheated"                               >Quá nhiệt</string>
+    <string name="application_class_problem"                >ApplicationClass đang gây ra sự cố, nhấn để làm mát</string>
+    <string name="cooling_cpu"                              >Làm mát CPu</string>
+    <string name="storage2"                                 >bộ nhớ</string>
+    <string name="apply"                                    >Đăng ký</string>
+    <string name="extended_battery_up_to_10h_30m"           >Đã kéo dài pin lên đến 10 giờ 30 phút</string>
+    <string name="add"                                      >Thêm</string>
+    <string name="ultra_power_saving_mode"                  >Chế độ siêu tiết kiệm điện</string>
+    <string name="disable_extreme_power_saving_mode"        >Tắt chế độ cực kỳ tiết kiệm điện</string>
+    <string name="camera"                                   >Máy ảnh</string>
+    <string name="calculator"                               >Máy tính</string>
+    <string name="alaram"                                   >Báo thức</string>
+    <string name="map"                                      >Bản đồ</string>
+    <string name="play_store"                               >Cửa hàng Store</string>
+    <string name="limited_apps_are_avalible_and_some_apps_and_features_may_not_work_when_ultra_power_saving_mode_is_enabled"
+        >Có sẵn một số ứng dụng có giới hạn và một số ứng dụng và tính năng có thể không hoạt động khi Chế độ siêu tiết kiệm điện được bật.</string>
+    <string name="add_applications"                         >Thêm ứng dụng</string>
+    <string name="my_message"                               >Tin nhắn của tôi</string>
+    <string name="decreasing_brightness_upto_90"            >Giảm độ sáng tới 90%</string>
+    <string name="decreasing_device_performance"            >Giảm hiệu suất của thiết bị</string>
+    <string name="closing_background_apps_and_services"     >Đóng ứng dụng và dịch vụ nền</string>
+    <string name="locking_acess_to_power_consuming_apps"    >Chặn quyền truy cập đến các ứng dụng tiêu tốn điện</string>
+    <string name="closing_all_power_consuming_functions"    >Đóng tất cả chức năng gây tiêu tốn điện</string>
+    <string name="optimize"                                 >Tối ưu hóa</string>
+    <string name="optimized"                                >Đã tối ưu hóa</string>
+    <string name="battery_power_20"                         >Nguồn pin 20%</string>
+    <string name="_16h_21m_remaning"                        >Còn 16 giờ 21 phút</string>
+    <string name="extreme"                                  >Cực kỳ</string>
+    <string name="normal_mode"                              >Bình thường</string>
+    <string name="ultra"                                    >Siêu cấp</string>
+    <string name="cool_down"                                >Làm mát</string>
+    <string name="cooled"                                   >Đã mát</string>
+    <string name="clean"                                    >Dọn dẹp</string>
+    <string name="cleaned"                                  >Đã dọn dẹp</string>
+    <string name="cache_memory"                             >Bộ nhớ đệm</string>
+    <string name="temporary_files"                          >Tệp tạm thời</string>
+    <string name="residual_files"                           >Tệp tồn dư</string>
+    <string name="system_junk"                              >Rác hệ thống</string>
+    <string name="cpu_scanner1"                             >Giới hạn độ sáng tới 80%</string>
+    <string name="cpu_scanner2"                             >Giảm hiệu suất của thiết bị</string>
+    <string name="cpu_scanner3"                             >Đóng ApplicationsClass gây tiêu tốn pin</string>
+    <string name="cpu_scanner4"                             >Đóng các dịch vụ hệ thống như Bluetooth, Xoay màn hình, Đồng bộ hóa, v.v.</string>
+</resources>

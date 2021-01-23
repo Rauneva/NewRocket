@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/btn_white">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close_shout"
+        android:padding="16dp"
+        android:id="@+id/ivClose"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:textColor="#235984"
+        android:letterSpacing="0.08"
+        android:lineSpacingExtra="-6sp"
+        android:gravity="center_horizontal"
+        android:text="Cleaner Pro"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/img_prem_shout"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="39dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textSize="16sp"
+        android:textColor="#de000000"
+        android:letterSpacing="0.06"
+        android:lineSpacingExtra="4sp"
+        android:gravity="center_horizontal"
+        android:text="@string/use_the_application_without"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="44dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:letterSpacing="0.14"
+        android:lineSpacingExtra="2sp"
+        android:gravity="center_horizontal"
+        android:text="@string/subscribe_shout"
+        android:background="@drawable/shape_shout_prem"
+        android:drawableStart="@drawable/ic_ads_shout_prem"
+        android:drawableEnd="@drawable/ic_arrow_shout_prem"
+        android:drawablePadding="10dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:paddingStart="19dp"
+        android:paddingEnd="19dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnShoutPay"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>

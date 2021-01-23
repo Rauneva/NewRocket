@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#27282D"
+    android:weightSum="10">
+
+    <include
+        android:id="@+id/i_native"
+        layout="@layout/native_layout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <include
+        layout="@layout/banner_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:layout_weight="6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_5sdp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            app:lottie_fileName="junk_complete.json"
+            android:visibility="invisible"
+            android:id="@+id/lavComplete"/>
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="600dp"
+            android:layout_height="600dp"
+            android:id="@+id/lavCpuCleaner"
+            android:layout_gravity="center"
+            app:lottie_loop="true"
+            app:lottie_fileName="cpu_cleaner.json"/>
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_weight="1.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:id="@+id/cpucooler"
+            android:textColor="#FFFFFF"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="@string/cooling_cpu"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_weight="2.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/rel"
+        >
+
+        <!--<ImageView-->
+            <!--android:src="@drawable/back_cpu_sca"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" />-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_centerInParent="true"
+            android:foregroundGravity="center"
+            android:id="@+id/recycler_view"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:layout_marginLeft="-700dp"
+            android:id="@+id/heart"
+            android:src="@drawable/heartbeat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/_15sdp"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="3dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#2c2c2c">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ivClose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:layout_gravity="end"
+                    app:srcCompat="@drawable/ic_close_timer_dialog" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:textStyle="normal"
+                    android:textSize="22sp"
+                    android:textColor="#ffffff"
+                    android:letterSpacing="0.06"
+                    android:lineSpacingExtra="6.3sp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/wait"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="25dp"
+                    />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_vert_dots"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginStart="36dp"/>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/img_back_timer">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="26sp"
+                    android:textColor="#ff0707"
+                    android:letterSpacing="0.06"
+                    android:lineSpacingExtra="9.1sp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/_70_discount"
+                    android:layout_marginTop="70dp"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_price_timer"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="4dp">
+
+                    <TextView
+                        android:id="@+id/tvNewPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:textStyle="normal"
+                        android:textSize="18sp"
+                        android:textColor="#ffffff"
+                        android:letterSpacing="0.06"
+                        android:lineSpacingExtra="0.5sp"
+                        android:gravity="center_horizontal"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginStart="44dp"
+                        android:layout_marginEnd="44dp"
+                        />
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="6dp"
+                        android:layout_gravity="center_horizontal">
+
+                        <TextView
+                            android:id="@+id/tvOldAlertPrice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:textStyle="normal"
+                            android:textSize="14sp"
+                            android:textColor="#aaaaaa"
+                            android:letterSpacing="0.06"
+                            android:lineSpacingExtra="0.4sp"
+                            android:gravity="center_horizontal"
+                            />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/ic_line_timer"
+                            android:layout_gravity="center"/>
+
+                    </FrameLayout>
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="14sp"
+                    android:textColor="#ff0000"
+                    android:letterSpacing="0.06"
+                    android:lineSpacingExtra="0.4sp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/remove_ads_in_the_application"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="64dp"
+                    android:layout_marginEnd="64dp"
+                    android:layout_marginTop="9dp"
+                    />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textSize="14sp"
+                android:textColor="#ffffff"
+                android:letterSpacing="0.06"
+                android:lineSpacingExtra="0.4sp"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="-70dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/offer_is_valid_once"
+                />
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="11dp"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/tvFirstHour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textStyle="normal"
+                    android:textSize="22sp"
+                    android:textColor="#ffffff"
+                    android:lineSpacingExtra="6.3sp"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/shape_timer_box"
+                    android:paddingEnd="6dp"
+                    android:paddingStart="6dp"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="3dp"/>
+
+                <TextView
+                    android:id="@+id/tvSecondHour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textStyle="normal"
+                    android:textSize="22sp"
+                    android:textColor="#ffffff"
+                    android:lineSpacingExtra="6.3sp"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/shape_timer_box"
+                    android:paddingEnd="6dp"
+                    android:paddingStart="6dp"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="3dp"
+                    android:layout_marginStart="5dp"/>
+
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_dots_timer_text"
+                    android:layout_marginStart="5dp"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:id="@+id/tvFirstMinute"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textStyle="normal"
+                    android:textSize="22sp"
+                    android:textColor="#ffffff"
+                    android:lineSpacingExtra="6.3sp"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/shape_timer_box"
+                    android:paddingEnd="6dp"
+                    android:paddingStart="6dp"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="3dp"
+                    android:layout_marginStart="5dp"/>
+
+                <TextView
+                    android:id="@+id/tvSecondMinute"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textStyle="normal"
+                    android:textSize="22sp"
+                    android:textColor="#ffffff"
+                    android:lineSpacingExtra="6.3sp"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/shape_timer_box"
+                    android:paddingEnd="6dp"
+                    android:paddingStart="6dp"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="3dp"
+                    android:layout_marginStart="5dp"/>
+
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_dots_timer_text"
+                    android:layout_marginStart="5dp"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:id="@+id/tvFirstSecond"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textStyle="normal"
+                    android:textSize="22sp"
+                    android:textColor="#ffffff"
+                    android:lineSpacingExtra="6.3sp"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/shape_timer_box"
+                    android:paddingEnd="6dp"
+                    android:paddingStart="6dp"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="3dp"
+                    android:layout_marginStart="5dp"/>
+
+                <TextView
+                    android:id="@+id/tvSecondSecond"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textStyle="normal"
+                    android:textSize="22sp"
+                    android:textColor="#ffffff"
+                    android:lineSpacingExtra="6.3sp"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/shape_timer_box"
+                    android:paddingEnd="6dp"
+                    android:paddingStart="6dp"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="3dp"
+                    android:layout_marginStart="5dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp">
+
+                <Button
+                    android:id="@+id/btnPay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#ffffff"
+                    android:letterSpacing="0.14"
+                    android:lineSpacingExtra="2sp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/remove_ads_alert"
+                    android:layout_marginTop="16dp"
+                    android:paddingBottom="18dp"
+                    android:paddingTop="18dp"
+                    android:paddingStart="75dp"
+                    android:paddingEnd="75dp"
+                    android:background="@drawable/shape_btn_prem_timer"
+                    android:layout_gravity="center_horizontal"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_dots_hor_timer"
+                    android:layout_marginTop="6dp"
+                    android:layout_gravity="end"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

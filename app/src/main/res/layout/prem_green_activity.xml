@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/btn_white">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:srcCompat="@drawable/ic_close_green" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="31dp"
+            android:layout_marginEnd="31dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_horizontal"
+            android:letterSpacing="0.06"
+            android:lineSpacingExtra="2sp"
+            android:text="@string/special_one_time_offer"
+            android:textColor="#de000000"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="18dp"
+            app:srcCompat="@drawable/img_prem_green" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="22dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_horizontal"
+            android:letterSpacing="0.05"
+            android:lineSpacingExtra="-2sp"
+            android:text="@string/wait"
+            android:textColor="#de000000"
+            android:textSize="22sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="66dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:letterSpacing="0.01"
+            android:lineSpacingExtra="6sp"
+            android:text="@string/if_you_complete_your_purchase_directly_now"
+            android:textColor="#de000000"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/tvCurrentPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="27dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_horizontal"
+            android:letterSpacing="0.07"
+            android:lineSpacingExtra="-8sp"
+            android:textColor="#e84b4b"
+            android:textSize="28sp"
+            android:textStyle="normal" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="11dp">
+
+            <TextView
+                android:id="@+id/tvOldPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif"
+                android:gravity="center_horizontal"
+                tools:text = "5 USD/month"
+                android:letterSpacing="0.06"
+                android:lineSpacingExtra="0.5sp"
+                android:textColor="#aaaaaa"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="120dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center_vertical"
+                android:background="#7B7B7B" />
+
+        </FrameLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnPayGreen"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:letterSpacing="0.14"
+            android:lineSpacingExtra="2sp"
+            android:gravity="center_horizontal"
+            android:text="@string/continue_without_ads"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/shape_green_btn"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp"
+            android:paddingStart="27dp"
+            android:paddingEnd="27dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="dev.mem.rocket.sanya">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+    <application
+        android:name="dev.mem.rocket.sanya.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:usesCleartextTraffic="true">
+
+        <activity android:name="dev.mem.rocket.sanya.presentation.privacy.PrivacyPoliceActivity"></activity>
+
+
+        <activity
+            android:name="dev.mem.rocket.sanya.SplashActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="dev.mem.rocket.sanya.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="dev.mem.rocket.sanya.presentation.prem.ParentPremActivity"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name="dev.mem.rocket.sanya.presentation.prem.activities.PremShoutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ShoutPrem"/>
+
+
+
+
+        <activity
+            android:name=".presentation.prem.ab.dec.BottomActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BottomPremStyle"/>
+
+        <activity
+            android:name=".presentation.prem.ab.dec.FlagActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BottomPremStyle"/>
+
+        <activity
+            android:name=".presentation.prem.ab.dec.LockActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/LockPremStyle"/>
+
+        <activity
+            android:name=".presentation.prem.ab.dec.ShieldActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/LockPremStyle"/>
+
+        <activity
+            android:name=".presentation.prem.ab.dec.WhiteActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/WhitePremStyle">
+        </activity>
+
+
+
+
+
+
+        <activity
+            android:name="dev.mem.rocket.sanya.presentation.prem.activities.PremGreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ShoutPrem"/>
+
+        <activity
+            android:name="dev.mem.rocket.sanya.Volume.NoAdsFrag"
+            android:parentActivityName="dev.mem.rocket.sanya.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dev.mem.rocket.sanya.MainActivity" />
+        </activity>
+        <activity
+            android:name="dev.mem.rocket.sanya.presentation.battery.medium.PowerSaving_popup"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="dev.mem.rocket.sanya.presentation.battery.hard.Ultra_PopUp"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="dev.mem.rocket.sanya.presentation.battery.hard.BatterySaver_Black"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="dev.mem.rocket.sanya.presentation.battery.low.Noraml_Mode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="dev.mem.rocket.sanya.presentation.battery.medium.PowerSaving_Complition"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="dev.mem.rocket.sanya.presentation.battery.hard.Applying_Ultra"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.clean.emptyrocket.Scanning_Junk"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="dev.mem.rocket.sanya.presentation.cpu.Cpu_Scanner"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="dev.mem.rocket.sanya.PPP.Pick_Apps"
+            android:theme="@style/Transparent" />
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:theme="@style/TranslucentTheme"
+            tools:replace="android:theme" />
+
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_id" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true"/>
+
+        <receiver android:name="dev.mem.rocket.sanya.AAA.Alarm_Booster" />
+        <receiver android:name="dev.mem.rocket.sanya.AAA.Alarm_Junk" />
+        <receiver android:name="dev.mem.rocket.sanya.AAA.AlarmBroadCastReceiver" />
+        <receiver android:name="dev.mem.rocket.sanya.utils.notifications.AlarmReceiver" />
+        <receiver android:name=".utils.notifications.interactive.brs.BoostBR"/>
+        <receiver android:name=".utils.notifications.interactive.brs.BatteryBR"/>
+        <receiver android:name=".utils.notifications.interactive.brs.TemperatureBR"/>
+        <receiver android:name=".utils.notifications.interactive.brs.ClearBR"/>
+        <receiver android:name=".utils.notifications.interactive.brs.OtherBR"/>
+
+        <receiver android:name=".utils.notifications.interactive.brs.RestartBR"
+            android:enabled="true"
+            android:exported="true"
+            android:label="RestartServiceStopped">
+
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+                <action android:name="dev.mem.rocket.sanya.utils.notifications.interactive.jservice"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </receiver>
+
+        <receiver android:name=".utils.notifications.system.BRBattery">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+
+
+        <receiver android:name="dev.mem.rocket.sanya.utils.notifications.BootNotificationService"
+            android:exported="true"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+
+
+
+        <receiver android:name="dev.mem.rocket.sanya.PPP.PowerConnected">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+            </intent-filter>
+        </receiver>
+
+
+        <service android:name=".utils.notifications.interactive.WidgetService"/>
+        <service android:name=".utils.notifications.interactive.jservice.JobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+
+        <service
+            android:name="dev.mem.rocket.sanya.utils.notifications.BootReceiver"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+
+
+        <service
+            android:name="dev.mem.rocket.sanya.service.CleanService"
+            android:label="@string/accesibilityService"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibility_service_config" />
+        </service>
+
+        <service
+            android:name=".utils.notifications.fcm.FCMService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+
+
+</manifest>

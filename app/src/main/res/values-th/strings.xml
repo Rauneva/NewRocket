@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="hh_remaining"                             >เหลือ 6  ชม. 0  นาที</string>
+    <string name="hhh_remaining"                            >เหลือ 8  ชม. 25 นาที</string>
+    <string name="hhhh_remaining"                           >เหลือ 12 ชม. 55 นาที</string>
+    <string name="hhhhh_remaining"                          >เหลือ 19 ชม. 2  นาที</string>
+    <string name="hhhhhh_remaining"                         >เหลือ 22 ชม. 0  นาที</string>
+    <string name="hhhhhhh_remaining"                        >เหลือ 28 ชม. 15 นาที</string>
+    <string name="hhhhhhhh_remaining"                       >เหลือ 30 ชม. 55 นาที</string>
+    <string name="hhhhhhhhh_remaining"                      >เหลือ 38 ชม. 5  นาที</string>
+    <string name="hhhhhhhhhh_remaining"                     >เหลือ 60 ชม. 0  นาที</string>
+
+
+    <string name="title_notefication"                       >ปัญหาด้านประสิทธิภาพ</string>
+    <string name="detail_notification"                      >โทรศัพท์กำลังทำงานช้าเนื่องจากไฟล์ขยะจำนวนมาก</string>
+    <string name="remove_ads"                               >ลบโฆษณา</string>
+    <string name="extended_battery_up_to"                   >ยืดอายุแบตเตอรี่ได้นานถึง </string>
+    <string name="battery_remaining"                        >แบตเตอรี่ที่เหลือ</string>
+    <string name="h_remaining"                              >เหลือ 3 ชม. 55 นาที</string>
+    <string name="this_app_is_already_added"                >เพิ่มแอปนี้แล้ว</string>
+    <string name="cooled_CPU_to"                            >ทำให้ CPU เย็นลงถึง 25.3°C</string>
+    <string name="MB_of_junk_files_are_cleared"             >ล้างไฟล์ขยะแล้ว (add the number here) MB</string>
+    <string name="cleared"                                  >ล้างแล้ว</string>
+    <string name="phone_is_already_optimized"               >เพิ่มประสิทธิภาพโทรศัพท์แล้ว</string>
+    <string name="scanning"                                 >กำลังสแกน...</string>
+    <string name="found"                                    >พบแล้ว</string>
+    <string name="storage"                                  >พื้นที่จัดเก็บ</string>
+    <string name="optimiing"                                >กำลังเพิ่มประสิทธิภาพ...</string>
+    <string name="charge_booster"                           >เครื่องมือบูสต์การชาร์จ</string>
+    <string name="used_mem"                                 >หน่วยความจำที่ใช้</string>
+    <string name="crystal_clear"                            >ใสสะอาด</string>
+    <string name="no_junk_files_already_cleaned"            >ไม่มีไฟล์ขยะ ทำความสะอาดแล้ว</string>
+    <string name="junk_cleaner"                             >เครื่องมือทำความสะอาดขยะ</string>
+    <string name="currently_no_app_causing_overheating"     >ในปัจจุบันนี้ไม่มีแอปใดที่ทำให้เกิดความร้อนมากเกินไป</string>
+    <string name="normal"                                   >ปกติ</string>
+    <string name="cpu_temperature_is_good"                  >อุณหภูมิ CPU ดี</string>
+    <string name="cpu_temperature_is_already_normal"        >อุณหภูมิ CPU ปกติอยู่แล้ว</string>
+    <string name="cpu_cooler"                               >เครื่องมือทำให้ CPU เย็นลง</string>
+    <string name="battery_saver"                            >เครื่องมือประหยัดแบตเตอรี่</string>
+    <string name="running_processes"                        >กระบวนการที่ดำเนินการอยู่</string>
+    <string name="ram_usage"                                >การใช้งาน Ram</string>
+    <string name="charging_time_remaning"                   >เวลาการชาร์จที่เหลือ</string>
+    <string name="overheated"                               >ร้อนมากเกินไป</string>
+    <string name="application_class_problem"                >ApplicationsClass ทำให้เกิดปัญหา แตะเพื่อทำให้เย็นลง</string>
+    <string name="cooling_cpu"                              >กำลังทำให้ CPU เย็นลง</string>
+    <string name="storage2"                                 >พื้นที่จัดเก็บ</string>
+    <string name="apply"                                    >ปรับใช้</string>
+    <string name="extended_battery_up_to_10h_30m"           >ยืดอายุแบตเตอรี่ได้นานถึง 10 ชม. 30 นาที</string>
+    <string name="add"                                      >เพิ่ม</string>
+    <string name="ultra_power_saving_mode"                  >โหมดประหยัดพลังงานขั้นสุดยอด</string>
+    <string name="disable_extreme_power_saving_mode"        >ปิดโหมดประหยัดพลังงานระดับสูงสุด</string>
+    <string name="camera"                                   >กล้อง</string>
+    <string name="calculator"                               >เครื่องคิดเลข</string>
+    <string name="alaram"                                   >นาฬิกาปลุก</string>
+    <string name="map"                                      >แผนที่</string>
+    <string name="play_store"                               >Play Store</string>
+    <string name="limited_apps_are_avalible_and_some_apps_and_features_may_not_work_when_ultra_power_saving_mode_is_enabled"
+        >ใช้แอปได้ในจำนวนจำกัด และบางแอปและบางฟีเจอร์อาจไม่สามารถทำงานได้เมื่อเปิดใช้โหมดประหยัดพลังงานขั้นสุดยอด</string>
+    <string name="add_applications"                         >เพิ่มแอปพลิเคชัน</string>
+    <string name="my_message"                               >ข้อความของฉัน</string>
+    <string name="decreasing_brightness_upto_90"            >กำลังลดความสว่างมากถึง 90%</string>
+    <string name="decreasing_device_performance"            >กำลังลดประสิทธิภาพของอุปกรณ์</string>
+    <string name="closing_background_apps_and_services"     >กำลังปิดแอปและบริการพื้นหลัง</string>
+    <string name="locking_acess_to_power_consuming_apps"    >กำลังล็อกการเข้าถึงแอปที่สิ้นเปลืองพลังงาน</string>
+    <string name="closing_all_power_consuming_functions"    >กำลังปิดฟังก์ชันที่สิ้นเปลืองพลังงานทั้งหมด</string>
+    <string name="optimize"                                 >เพิ่มประสิทธิภาพ</string>
+    <string name="optimized"                                >เพิ่มประสิทธิภาพแล้ว</string>
+    <string name="battery_power_20"                         >พลังงานแบตเตอรี่ 20%</string>
+    <string name="_16h_21m_remaning"                        >เหลือ 16 ชม. 21 นาที</string>
+    <string name="extreme"                                  >สูงสุด</string>
+    <string name="normal_mode"                              >ปกติ</string>
+    <string name="ultra"                                    >สุดยอด</string>
+    <string name="cool_down"                                >ทำให้เย็นลง</string>
+    <string name="cooled"                                   >เย็นลงแล้ว</string>
+    <string name="clean"                                    >ทำความสะอาด</string>
+    <string name="cleaned"                                  >ทำความสะอาดแล้ว</string>
+    <string name="cache_memory"                             >หน่วยความจำแคช</string>
+    <string name="temporary_files"                          >ไฟล์ชั่วคราว</string>
+    <string name="residual_files"                           >ไฟล์ตกค้าง</string>
+    <string name="system_junk"                              >ขยะระบบ</string>
+    <string name="cpu_scanner1"                             >จำกัดความสว่างมากถึง 80%</string>
+    <string name="cpu_scanner2"                             >ลดประสิทธิภาพของอุปกรณ์</string>
+    <string name="cpu_scanner3"                             >ปิด ApplicationsClass ที่สิ้นเปลืองแบตเตอรี่ทั้งหมด</string>
+    <string name="cpu_scanner4"                             >ปิดบริการระบบ เช่น บลูทูธ การหมุนหน้าจอ การซิงค์ ฯลฯ</string>
+</resources>

@@ -11,7 +11,6 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="5.5"
-        android:background="#27282D"
         android:gravity="center">
 
         <RelativeLayout
@@ -33,6 +32,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="-700dp"
                 android:paddingTop="@dimen/_20sdp"
+                android:visibility="gone"
                 android:src="@drawable/running_bar" />
 
             <LinearLayout
@@ -110,8 +110,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1.2"
-        android:background="#27282D">
+        android:layout_weight="1.2">
 
         <LinearLayout
             android:id="@+id/scanlay"
@@ -138,14 +137,20 @@
 
             <Button
                 android:id="@+id/optbutton"
-                style="@style/HabraThemeButton"
-                android:layout_width="@dimen/_150sdp"
-                android:layout_height="@dimen/_40sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginBottom="@dimen/_10sdp"
                 android:text="@string/optimize"
-                android:textColor="@android:color/background_light"
-
+                android:textSize="14sp"
+                android:textAllCaps="true"
+                android:fontFamily="@font/roboto"
+                android:textColor="@color/btn_white"
+                android:background="@drawable/shape_btn_boost"
+                android:paddingBottom="16dp"
+                android:paddingTop="16dp"
+                android:paddingStart="64dp"
+                android:paddingEnd="64dp"
                 />
 
         </LinearLayout>
@@ -167,7 +172,6 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="1dp"
             android:layout_weight="1"
-            android:background="#27282D"
             android:gravity="center_vertical|center_horizontal"
             android:orientation="vertical"
             android:paddingLeft="@dimen/_1sdp"
@@ -262,7 +266,6 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="1dp"
             android:layout_weight="2"
-            android:background="#27282D"
             android:gravity="center_vertical|center_horizontal"
             android:orientation="vertical"
             android:paddingLeft="@dimen/_1sdp"
@@ -278,20 +281,21 @@
                 android:visibility="visible">
 
                 <ImageView
-                    android:layout_width="@dimen/_20sdp"
-                    android:layout_height="@dimen/_20sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/_12sdp"
-                    android:src="@drawable/ram_usage" />
+                    android:src="@drawable/ic_cpu_main_screen" />
 
                 <TextView
                     android:id="@+id/ramperct"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
+                    android:fontFamily="@font/roboto_bold"
                     android:text="48%"
                     android:textAppearance="?android:textAppearanceMedium"
                     android:textColor="#FFFFFF"
-                    android:textSize="@dimen/_22sdp"
+                    android:textSize="26sp"
                     android:visibility="visible" />
 
             </LinearLayout>

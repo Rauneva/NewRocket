@@ -16,16 +16,22 @@
         android:layout_height="0dp"
         android:weightSum="8">
 
-        <RelativeLayout
-            android:layout_weight="5"
-            android:padding="@dimen/_20sdp"
+        <LinearLayout
+            android:layout_weight="6"
             android:layout_width="match_parent"
-            android:layout_height="0dp">
+            android:orientation="vertical"
+            android:layout_height="0dp"
+            android:weightSum="4">
+
+
         <ImageView
             android:id="@+id/tempimg"
             android:src="@drawable/blue_cooler"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_marginTop="26dp"
+            android:layout_weight="3"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/batterytemp"
@@ -34,11 +40,12 @@
             android:textSize="@dimen/_25sdp"
             android:layout_alignParentBottom="true"
             android:gravity="center"
+            android:layout_weight="1"
             android:textColor="#ffffff"
             android:text="23.2"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_40sdp" />
-        </RelativeLayout>
+        </LinearLayout>
 
         <TextView
             android:id="@+id/showmain"
@@ -55,17 +62,19 @@
 
         <Button
             android:id="@+id/coolbutton"
-            android:layout_width="300dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:gravity="center"
             android:layout_gravity="center_horizontal"
-            android:padding="@dimen/_2sdp"
-
-            android:src="@drawable/cool_button_blue"
+            android:background="@drawable/shape_cpu_cool"
             android:text="@string/cool_down"
             android:textAllCaps="true"
-            android:textSize="30sp" />
+            android:textSize="14sp"
+            android:fontFamily="@font/roboto"
+            android:paddingEnd="36dp"
+            android:paddingStart="36dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"/>
         <TextView
             android:id="@+id/showsec"
             android:textColor="#24D149"

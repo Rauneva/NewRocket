@@ -83,6 +83,7 @@
         <ImageView
             android:layout_marginLeft="-700dp"
             android:id="@+id/heart"
+            android:visibility="gone"
             android:src="@drawable/heartbeat"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

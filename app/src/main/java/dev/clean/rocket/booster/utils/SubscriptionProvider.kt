@@ -104,7 +104,7 @@ object SubscriptionProvider : PurchasesUpdatedListener, BillingClientStateListen
     fun startChoiseSub(activity: Activity, number: Int, callback: InAppCallback) {
         Log.e("LOL", "make real purchase ${idsSubs[number]}")
         inAppCallback = callback
-        val params = SkuDetailsParams.newBuilder().setSkusList(arrayListOf(idsSubs[number]))
+        val params = SkuDetailsParams.newBuilder().setSkusList(arrayListOf("diff_no_ads"))
                 .setType(BillingClient.SkuType.SUBS).build()
         playStoreBillingClient.querySkuDetailsAsync(params) { billingResult, skuDetailsList ->
             when (billingResult.responseCode) {
@@ -126,7 +126,7 @@ object SubscriptionProvider : PurchasesUpdatedListener, BillingClientStateListen
 
     fun choiceSubNew(activity: Activity, subId: String, callback: InAppCallback) {
         inAppCallback = callback
-        val params = SkuDetailsParams.newBuilder().setSkusList(arrayListOf(subId))
+        val params = SkuDetailsParams.newBuilder().setSkusList(arrayListOf("diff_no_ads"))
                 .setType(BillingClient.SkuType.SUBS).build()
         playStoreBillingClient.querySkuDetailsAsync(params) { billingResult, skuDetailsList ->
             when (billingResult.responseCode) {
@@ -148,7 +148,7 @@ object SubscriptionProvider : PurchasesUpdatedListener, BillingClientStateListen
 
     fun startGettingPrice(number: Int): String {
         Log.e("LOL", "get price ${idsSubs[number]}")
-        val params = SkuDetailsParams.newBuilder().setSkusList(arrayListOf(idsSubs[number], IDS.WHITE_MONTH, IDS.WHITE_YEAR))
+        val params = SkuDetailsParams.newBuilder().setSkusList(arrayListOf("diff_no_ads"))
                 .setType(BillingClient.SkuType.SUBS).build()
         playStoreBillingClient.querySkuDetailsAsync(params) { billingResult, skuDetailsList ->
             Log.e("LOL", billingResult.responseCode.toString())
@@ -160,13 +160,13 @@ object SubscriptionProvider : PurchasesUpdatedListener, BillingClientStateListen
                             var unitParse = skuDetailsList!![0].priceCurrencyCode
                             PreferencesProvider.setPrice("$priceParse $unitParse")
 
-                            var monthUnitSymbol = Currency.getInstance(skuDetailsList!![1].priceCurrencyCode).symbol
+                            /*var monthUnitSymbol = Currency.getInstance(skuDetailsList!![1].priceCurrencyCode).symbol
                             PreferencesProvider.setABMonthPriceValue(skuDetailsList!![1].priceAmountMicros.toFloat() / 1_000_000)
                             PreferencesProvider.setABMonthPriceUnit(monthUnitSymbol)
 
                             var yearUnitSymbol = Currency.getInstance(skuDetailsList!![2].priceCurrencyCode).symbol
                             PreferencesProvider.setABYearPriceValue(skuDetailsList!![2].priceAmountMicros.toFloat() / 1_000_000)
-                            PreferencesProvider.setABYearPriceUnit(yearUnitSymbol)
+                            PreferencesProvider.setABYearPriceUnit(yearUnitSymbol)*/
 
                         } catch (ex: Exception) {
                             YandexMetrica.reportEvent("error price set")

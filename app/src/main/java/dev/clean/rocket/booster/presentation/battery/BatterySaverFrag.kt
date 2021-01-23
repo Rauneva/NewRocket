@@ -33,13 +33,9 @@ class BatterySaverFrag : Fragment() {
         override fun onReceive(ctxt: Context, intent: Intent) {
             val level = intent.getIntExtra(BatteryManager.EXTRA_LEVEL, 0)
 
-            waveView.progressValue = level
-            //            waveView.setBottomTitle(level+"%");
-            waveView.centerTitle = "$level%"
+            tvLevel.text = "$level%"
 
             if (level <= 5) {
-
-
                 if (PreferencesProvider.getInstance().getString("mode", "0") == "0") {
                     hourmain.text = 0.toString() + ""
                     minutesmain.text = 15.toString() + ""
@@ -167,48 +163,32 @@ class BatterySaverFrag : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
-        if (PreferencesProvider.getWidgetWay() == PreferencesProvider.WAY_BATTERY) {
+        if (PreferencesProvider.getWidgetWay() == PreferencesProvider.WAY_BATTERY){
             val i = Intent(activity, PowerSaving_popup::class.java)
             startActivity(i)
         }
 
         try {
 
-            normal.setOnClickListener {
+            imageView3.setOnClickListener {
                 val i = Intent(activity, Noraml_Mode::class.java)
                 startActivity(i)
             }
 
-            powersaving.setOnClickListener {
+            imageView6.setOnClickListener {
                 val i = Intent(activity, PowerSaving_popup::class.java)
                 startActivity(i)
             }
 
-            if (!Config.FOR_TEST) {
-                ultra.setOnClickListener {
-                    val i = Intent(activity, Ultra_PopUp::class.java)
-                    startActivity(i)
-                }
+            imageView7.setOnClickListener {
+                val i = Intent(activity, Ultra_PopUp::class.java)
+                startActivity(i)
             }
 
-            waveView.setShapeType(WaveLoadingView.ShapeType.CIRCLE)
-            waveView.centerTitleColor = Color.parseColor("#FFFFFF")
-            waveView.bottomTitleColor = Color.parseColor("#FFFFFF")
-            waveView.borderWidth = 10f
-            waveView.setAmplitudeRatio(30)
-            waveView.waveColor = Color.parseColor("#2499E0")
-            waveView.borderColor = Color.parseColor("#000000")
-            waveView.setTopTitleStrokeColor(Color.BLUE)
-            waveView.setTopTitleStrokeWidth(3f)
-            waveView.setAnimDuration(3000)
-            waveView.startAnimation()
+
+
         } catch (e: Exception) {
             e.printStackTrace()
-        }
-
-        if (PreferencesProvider.getWidgetWay() == PreferencesProvider.WAY_BATTERY) {
-            val i = Intent(activity, PowerSaving_popup::class.java)
-            startActivity(i)
         }
     }
 
@@ -223,7 +203,9 @@ class BatterySaverFrag : Fragment() {
         try {
             activity!!.unregisterReceiver(mBatInfoReceiver)
         } catch (e: Exception) {
+
         }
+
     }
 
 
@@ -231,7 +213,7 @@ class BatterySaverFrag : Fragment() {
         super.setUserVisibleHint(isVisibleToUser)
         if (isVisibleToUser) {
             MainActivity.setInfo(R.string.battery_saver)
-            Analytics.openPart(Analytics.OPEN_ES)
+        } else {
         }
     }
 

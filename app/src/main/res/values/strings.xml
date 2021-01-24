@@ -15,21 +15,21 @@
     <string name="action_settings" translatable="false">Settings</string>
 
     <!--Super New id (work)-->
-    <!--<string name="banner_key" translatable="false">ca-app-pub-9302174123686500/2798945197</string>
+    <string name="banner_key" translatable="false">ca-app-pub-9302174123686500/2798945197</string>
     <string name="banner_key_test" translatable="false">ca-app-pub-9302174123686500/2798945197</string>
     <string name="interstitial" translatable="false">ca-app-pub-9302174123686500/6027743769</string>
     <string name="native_ad" translatable="false">ca-app-pub-2906731638529737/4115171578</string>
     <string name="ab_native_ad" translatable="false">ca-app-pub-2906731638529737/4115171578</string>
-    <string name="admob_id" translatable="false">ca-app-pub-9302174123686500~9441193407</string>-->
+    <string name="admob_id" translatable="false">ca-app-pub-9302174123686500~9441193407</string>
 
 
     <!--Test-->
-    <string name="admob_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <!--<string name="admob_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
     <string name="banner_key" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
     <string name="banner_key_test" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
     <string name="interstitial" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
     <string name="native_ad" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
-    <string name="ab_native_ad" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="ab_native_ad" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
 
 
 

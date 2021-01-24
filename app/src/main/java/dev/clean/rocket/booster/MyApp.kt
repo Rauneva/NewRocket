@@ -35,18 +35,14 @@ class MyApp : Application() {
 
         //MobileAds.initialize(this, getString(R.string.interstitial))
         MobileAds.initialize(this, getString(R.string.admob_id))
-        val config = YandexMetricaConfig.newConfigBuilder("04c86bac-0b6a-4a17-ab35-809884595f8f").build()
+        val config = YandexMetricaConfig.newConfigBuilder("9ca215ee-0680-437a-896e-e1dd21c798ad").build()
         YandexMetrica.activate(applicationContext, config)
         YandexMetrica.enableActivityAutoTracking(this)
         Amplitude.getInstance()
-                //.initialize(this, "a599776e0f5f48011f9842ca7bffad60")  // old
-                .initialize(this, "414b963913e653b6594dcc19d9b2555e") // new 21.01.2021
+                .initialize(this, "0df4643de239d007bb03f7e9fca7ed94") // new 21.01.2021
                 .enableForegroundTracking(this)
 
         applicationHandler =  Handler(applicationContext.getMainLooper());
-        /*if (BuildConfig.DEBUG) {
-            Bugsee.launch(this, "1187e351-e756-4bad-80af-5efa69a3ff56")
-        }*/
         createNotificationChannel()
     }
 
@@ -57,8 +53,8 @@ class MyApp : Application() {
                     .setUsage(AudioAttributes.USAGE_NOTIFICATION)
                     .setContentType(AudioAttributes.CONTENT_TYPE_SPEECH)
                     .build()
-            val channelId = "com.clean.emptyrocket"
-            val channelName = "com.clean.emptyrocket"
+            val channelId = "com.cleaner.booster.rocket"
+            val channelName = "com.cleaner.booster.rocket"
             val channel = NotificationChannel(channelId, channelName, NotificationManager.IMPORTANCE_DEFAULT)
             channel.lightColor = Color.parseColor("#4B8A08")
             channel.vibrationPattern = longArrayOf(0, 500)

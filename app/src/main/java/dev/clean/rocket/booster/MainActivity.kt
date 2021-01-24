@@ -87,9 +87,9 @@ class MainActivity : AppCompatActivity(), Preference.OnPreferenceClickListener {
         /*      /topics/news          */
         FirebaseMessaging
                 .getInstance()
-                .subscribeToTopic(Config.TOPIC_NEW)
+                .subscribeToTopic(Config.TOPIC_OLD)
                 .addOnSuccessListener {
-                    Analytics.setTopic(TOPIC_NEW)
+                    Analytics.setTopic(Config.TOPIC_OLD)
                 }
         FBWork.getFCMToken()
 

@@ -16,11 +16,9 @@ object SubscriptionProvider : PurchasesUpdatedListener, BillingClientStateListen
 
     lateinit private var playStoreBillingClient: BillingClient
     private lateinit var preferences: SharedPreferences
-    private val skuDetails: MutableMap<String, SkuDetails?> =
-            HashMap()
 
-    private const val SUBSCRIPTION_ID = "diff_no_ads_i"
-    private const val TRACKER_TAG = "TRACKER_TAG"
+
+    private const val SUBSCRIPTION_ID = "diff_no_ads"
 
     private var inAppCallback: InAppCallback? = null
 
@@ -104,14 +102,13 @@ object SubscriptionProvider : PurchasesUpdatedListener, BillingClientStateListen
     fun startChoiseSub(activity: Activity, number: Int, callback: InAppCallback) {
         Log.e("LOL", "make real purchase ${idsSubs[number]}")
         inAppCallback = callback
-        val params = SkuDetailsParams.newBuilder().setSkusList(arrayListOf("diff_no_ads"))
+        val params = SkuDetailsParams.newBuilder().setSkusList(arrayListOf(SUBSCRIPTION_ID))
                 .setType(BillingClient.SkuType.SUBS).build()
         playStoreBillingClient.querySkuDetailsAsync(params) { billingResult, skuDetailsList ->
             when (billingResult.responseCode) {
                 BillingClient.BillingResponseCode.OK -> {
                     if (skuDetailsList.orEmpty().isNotEmpty()) {
                         skuDetailsList!!.forEach {
-                            skuDetails[TRACKER_TAG] = it
                             val perchaseParams = BillingFlowParams.newBuilder().setSkuDetails(it)
                                     .build()
                             playStoreBillingClient.launchBillingFlow(activity, perchaseParams)
@@ -126,14 +123,13 @@ object SubscriptionProvider : PurchasesUpdatedListener, BillingClientStateListen
 
     fun choiceSubNew(activity: Activity, subId: String, callback: InAppCallback) {
         inAppCallback = callback
-        val params = SkuDetailsParams.newBuilder().setSkusList(arrayListOf("diff_no_ads"))
+        val params = SkuDetailsParams.newBuilder().setSkusList(arrayListOf(SUBSCRIPTION_ID))
                 .setType(BillingClient.SkuType.SUBS).build()
         playStoreBillingClient.querySkuDetailsAsync(params) { billingResult, skuDetailsList ->
             when (billingResult.responseCode) {
                 BillingClient.BillingResponseCode.OK -> {
                     if (skuDetailsList.orEmpty().isNotEmpty()) {
                         skuDetailsList!!.forEach {
-                            skuDetails[TRACKER_TAG] = it
                             val perchaseParams = BillingFlowParams.newBuilder().setSkuDetails(it)
                                     .build()
                             playStoreBillingClient.launchBillingFlow(activity, perchaseParams)
@@ -148,7 +144,7 @@ object SubscriptionProvider : PurchasesUpdatedListener, BillingClientStateListen
 
     fun startGettingPrice(number: Int): String {
         Log.e("LOL", "get price ${idsSubs[number]}")
-        val params = SkuDetailsParams.newBuilder().setSkusList(arrayListOf("diff_no_ads"))
+        val params = SkuDetailsParams.newBuilder().setSkusList(arrayListOf(SUBSCRIPTION_ID))
                 .setType(BillingClient.SkuType.SUBS).build()
         playStoreBillingClient.querySkuDetailsAsync(params) { billingResult, skuDetailsList ->
             Log.e("LOL", billingResult.responseCode.toString())

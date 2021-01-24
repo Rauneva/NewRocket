@@ -60,7 +60,7 @@ object CleanNotification {
     var installLayoutList = listOf(R.layout.package_notif_a, R.layout.package_notif_b, R.layout.package_notif_c)
     var deleteLayoutList = listOf(R.layout.delete_notif_a, R.layout.delete_notif_b, R.layout.delete_notif_c)
     var iconsList = listOf(R.drawable.ic_notif_battery, R.drawable.ic_notif_storage, R.drawable.ic_notif_install, R.drawable.ic_notif_delete)
-    var channels = listOf("com.wsoteam.cleaner.bat", "com.wsoteam.cleaner.storage", "com.wsoteam.cleaner.install", "com.wsoteam.cleaner.delete")
+    var channels = listOf("com.cleaner.booster.rocket.bat", "com.cleaner.booster.rocket.storage", "com.cleaner.booster.rocket.install", "com.cleaner.booster.rocket.delete")
 
 
     private fun getPendingIntent(intent: Intent): PendingIntent {

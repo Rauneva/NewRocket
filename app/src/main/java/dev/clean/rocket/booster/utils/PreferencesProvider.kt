@@ -104,11 +104,7 @@ object PreferencesProvider {
     fun setVerNotif(ver: Int) = editor { it?.putInt(VER_NOTIF, ver) }
     fun getVerNotif() = getInstance()?.getInt(VER_NOTIF, 0)
 
-    fun setShowCount(count: Int) = editor { it?.putInt(SHOW_COUNT, count) }
-    fun getShowCount() = getInstance()?.getInt(SHOW_COUNT, 0)
 
-    fun setClickCount(count: Int) = editor { it?.putInt(CLICK_COUNT, count) }
-    fun getClickCount() = getInstance()?.getInt(CLICK_COUNT, 0)
 
     fun setId(id: String) = editor { it?.putString(CAMPAIGN_ID, id) }
     fun getId() = getInstance()?.getString(CAMPAIGN_ID, "")
@@ -157,4 +153,11 @@ object PreferencesProvider {
 
     fun setAdBanStatus(isBanned : Boolean) = editor { it?.putBoolean(AD_BAN_AD, isBanned)}
     fun getAdBanStatus() = getInstance()?.getBoolean(AD_BAN_AD, false)
+
+    fun setClickCount(count: Int) = editor { it?.putInt(CLICK_COUNT, count) }
+    fun getClickCount() = getInstance()?.getInt(CLICK_COUNT, 0)
+
+    fun setShowCount(count: Int) = editor { it?.putInt(SHOW_COUNT, count) }
+    fun getShowCount() = getInstance()?.getInt(SHOW_COUNT, 0)
+
 }

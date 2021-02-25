@@ -94,6 +94,7 @@ class SplashActivity : AppCompatActivity(), AdMobFullscreenManager.AdMobFullscre
         if (!PreferencesProvider.getAdBanStatus()!!){
             Analytics.setBanVersion("false")
         }
+        Analytics.setShowCount(PreferencesProvider.getShowCount()!!.toString())
         PreferencesProvider.getInstance().edit().putString("junk", "1").commit()
         trackSystemNotifAnalytics()
         trackFCMAnalytic()

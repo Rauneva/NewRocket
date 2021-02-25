@@ -68,8 +68,7 @@ class AdMobFullscreenManager(private val context: Context, delegate: AdMobFullsc
 
             override fun onAdOpened() {
                 Analytics.show()
-                // Code to be executed when the ad is displayed.
-                Log.e("LOL", "onAdOpened")
+                ClickManager.increaseShowCount()
             }
 
             override fun onAdClicked() {

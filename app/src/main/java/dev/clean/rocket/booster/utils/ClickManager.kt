@@ -53,7 +53,15 @@ object ClickManager {
         var clickCount = PreferencesProvider.getClickCount()!!
         clickCount++
         PreferencesProvider.setClickCount(clickCount)
+        Analytics.setClickCount(clickCount.toString())
 
         refreshBanStatus()
+    }
+
+    fun increaseShowCount() {
+        var showCount = PreferencesProvider.getShowCount()!!
+        showCount++
+        PreferencesProvider.setShowCount(showCount)
+        Analytics.setShowCount(showCount.toString())
     }
 }

@@ -104,10 +104,22 @@ object Analytics {
     val which_twice = "which_twice"
 
     val BAN_STATE = "BAN_STATE"
+    val CLICK_COUNT = "click_count"
+    val SHOW_COUNT = "show_count"
 
 
     fun setBanVersion(state : String){
         var identify = Identify().setOnce(BAN_STATE, state)
+        Amplitude.getInstance().identify(identify)
+    }
+
+    fun setClickCount(count : String){
+        var identify = Identify().setOnce(CLICK_COUNT, count)
+        Amplitude.getInstance().identify(identify)
+    }
+
+    fun setShowCount(count : String){
+        var identify = Identify().setOnce(SHOW_COUNT, count)
         Amplitude.getInstance().identify(identify)
     }
 

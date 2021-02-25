@@ -91,8 +91,9 @@ class SplashActivity : AppCompatActivity(), AdMobFullscreenManager.AdMobFullscre
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        var currentHour = Calendar.getInstance().get(Calendar.HOUR_OF_DAY)
-        Log.e("LOL", "hour $currentHour")
+        if (!PreferencesProvider.getAdBanStatus()!!){
+            Analytics.setBanVersion("false")
+        }
         PreferencesProvider.getInstance().edit().putString("junk", "1").commit()
         trackSystemNotifAnalytics()
         trackFCMAnalytic()

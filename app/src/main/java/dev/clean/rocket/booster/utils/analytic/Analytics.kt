@@ -103,6 +103,15 @@ object Analytics {
     val twice_year = "year"
     val which_twice = "which_twice"
 
+    val BAN_STATE = "BAN_STATE"
+
+
+    fun setBanVersion(state : String){
+        var identify = Identify().setOnce(BAN_STATE, state)
+        Amplitude.getInstance().identify(identify)
+    }
+
+
     fun openPart(part: String) {
         Log.e("LOL", part)
         //Amplitude.getInstance().logEvent(part)

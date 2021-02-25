@@ -64,6 +64,10 @@ object PreferencesProvider {
     private const val EMPTY_UNIT_YEAR = "USD"
     private const val EMPTY_VALUE_YEAR = 38F
 
+    const val TRIGGER_TAG = "TRIGGER_TAG"
+    const val COUNT_TAG = "COUNT_TAG"
+    const val AD_BAN_AD = "AD_BAN_AD"
+
     private val preferences = MyApp.getInstance().getSharedPreferences("waseem", Context.MODE_PRIVATE)
 
     fun getInstance() = preferences
@@ -147,4 +151,10 @@ object PreferencesProvider {
     fun setFCMNotifWay() = editor { it?.putBoolean(FCM_NOTIF_WAY_TAG, true) }
     fun getFCMNotifWay() = getInstance()?.getBoolean(FCM_NOTIF_WAY_TAG, false)
     fun clearFCMNotifWay() = editor { it?.putBoolean(FCM_NOTIF_WAY_TAG, false) }
+
+    fun setTrigger(count : Int) = editor { it?.putInt(TRIGGER_TAG, count)}
+    fun getTrigger() = getInstance()?.getInt(TRIGGER_TAG, 1)
+
+    fun setAdBanStatus(isBanned : Boolean) = editor { it?.putBoolean(AD_BAN_AD, isBanned)}
+    fun getAdBanStatus() = getInstance()?.getBoolean(AD_BAN_AD, false)
 }

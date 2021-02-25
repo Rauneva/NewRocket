@@ -8,6 +8,7 @@ import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.InterstitialAd
 import dev.clean.rocket.booster.Config
 import dev.clean.rocket.booster.R
+import dev.clean.rocket.booster.utils.ClickManager
 import dev.clean.rocket.booster.utils.SubscriptionProvider
 import dev.clean.rocket.booster.utils.analytic.Analytics
 import dev.clean.rocket.booster.utils.NewConfigProvider
@@ -38,11 +39,11 @@ class AdMobFullscreenManager(private val context: Context, delegate: AdMobFullsc
         mInterstitialAd = InterstitialAd(context)
         configure(delegate)
         NewConfigProvider.runSetup()
+        ClickManager.runSetup()
     }
 
     private fun configure(delegate: AdMobFullscreenDelegate?) {
         mInterstitialAd.setAdUnitId(context?.getString(R.string.interstitial))
-        //mInterstitialAd.setAdUnitId("ca-app-pub-3149924354118474/9415209496");
         mInterstitialAd.loadAd(AdRequest.Builder().build())
         this.delegate = delegate
         mInterstitialAd.setAdListener(object : AdListener() {
@@ -51,7 +52,11 @@ class AdMobFullscreenManager(private val context: Context, delegate: AdMobFullsc
                 countRequestAd = 0
                 adMobState = AdMobState.Loaded
                 if (this@AdMobFullscreenManager.delegate != null) {
-                    this@AdMobFullscreenManager.delegate!!.ADLoaded()
+                    if (PreferencesProvider.getAdBanStatus()!!){
+                        this@AdMobFullscreenManager.delegate!!.ADIsClosed()
+                    }else{
+                        this@AdMobFullscreenManager.delegate!!.ADLoaded()
+                    }
                 }
             }
 
@@ -65,12 +70,11 @@ class AdMobFullscreenManager(private val context: Context, delegate: AdMobFullsc
                 Analytics.show()
                 // Code to be executed when the ad is displayed.
                 Log.e("LOL", "onAdOpened")
-                Scan.increaseShow()
             }
 
             override fun onAdClicked() {
                 super.onAdClicked()
-                Scan.increaseClick()
+                ClickManager.increaseClickCount()
             }
 
             override fun onAdLeftApplication() {

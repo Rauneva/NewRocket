@@ -14,5 +14,7 @@ class Config {
 
     val TOPIC_OLD = "news"
     val TOPIC_NEW = "new_news"
+
+    val NEED_LOAD_CLICK_TRIGGER = true
   }
 }

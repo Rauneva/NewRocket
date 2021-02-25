@@ -78,7 +78,7 @@ class FCMService : FirebaseMessagingService() {
         //collapsedView.setTextViewText(R.id.tvNotificationTitle, p0.data["title"])
 
         var largeIcon = BitmapFactory.decodeResource(resources, R.drawable.ic_small_notification)
-        var notificationBuilder = NotificationCompat.Builder(this, "com.clean.emptyrocket")
+        var notificationBuilder = NotificationCompat.Builder(this, "com.cleaner.booster.rocket")
                 .setSmallIcon(R.drawable.ic_small_notification)
                 .setLargeIcon(largeIcon)
                 .setAutoCancel(true)

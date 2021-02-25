@@ -19,7 +19,7 @@ object NativeProvider {
     val NATIVE_ITEMS_MAX = 3
     var counter = 0
 
-    fun loadNative(){
+    /*fun loadNative(){
         adLoader = AdLoader
                 .Builder(MyApp.getInstance(), MyApp.getInstance().getString(R.string.native_ad))
                 .forUnifiedNativeAd { nativeAD ->
@@ -35,7 +35,7 @@ object NativeProvider {
                     }
                 }).build()
         adLoader?.loadAds(AdRequest.Builder().build(), NATIVE_ITEMS_MAX)
-    }
+    }*/
 
     private fun endLoading() {
         if (bufferAdsList.size > 0 && !Config.FOR_TEST) {

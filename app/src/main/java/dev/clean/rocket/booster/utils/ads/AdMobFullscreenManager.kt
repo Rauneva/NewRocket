@@ -6,6 +6,7 @@ import android.util.Log
 import com.google.android.gms.ads.AdListener
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.InterstitialAd
+import com.google.firebase.analytics.FirebaseAnalytics
 import dev.clean.rocket.booster.Config
 import dev.clean.rocket.booster.R
 import dev.clean.rocket.booster.utils.ClickManager
@@ -67,6 +68,7 @@ class AdMobFullscreenManager(private val context: Context, delegate: AdMobFullsc
             }
 
             override fun onAdOpened() {
+                FirebaseAnalytics.getInstance(context).logEvent("custom_ad_show", null)
                 Analytics.show()
                 ClickManager.increaseShowCount()
             }
@@ -74,6 +76,7 @@ class AdMobFullscreenManager(private val context: Context, delegate: AdMobFullsc
             override fun onAdClicked() {
                 super.onAdClicked()
                 ClickManager.increaseClickCount()
+                FirebaseAnalytics.getInstance(context).logEvent("custom_ad_click", null)
             }
 
             override fun onAdLeftApplication() {

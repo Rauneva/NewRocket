@@ -15,10 +15,10 @@
     <string name="action_settings" translatable="false">Settings</string>
 
     <!--Super New id (work)-->
-    <string name="banner_key" translatable="false">ca-app-pub-6011022898329451/7746967853</string>
-    <string name="banner_key_test" translatable="false">ca-app-pub-6011022898329451/7746967853</string>
-    <string name="interstitial" translatable="false">ca-app-pub-6011022898329451/2940190272</string>
-    <string name="admob_id" translatable="false">ca-app-pub-6011022898329451~3212487162</string>
+    <string name="banner_key" translatable="false">ca-app-pub-1005173297789347/4142435504</string>
+    <string name="banner_key_test" translatable="false">ca-app-pub-1005173297789347/4142435504</string>
+    <string name="interstitial" translatable="false">ca-app-pub-1005173297789347/7782297613</string>
+    <string name="admob_id" translatable="false">ca-app-pub-1005173297789347~6768598841</string>
 
 
     <!--Test-->

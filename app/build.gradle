@@ -10,8 +10,8 @@ android {
         applicationId "com.cleaner.booster.rocket"
         minSdkVersion 21
         targetSdkVersion 29
-        versionCode 24
-        versionName "1.0.24"
+        versionCode 27
+        versionName "1.0.26"
         multiDexEnabled = true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -72,25 +72,27 @@ dependencies {
     // Опционально. Библиотека Play Install Referrer.
     implementation 'com.android.installreferrer:installreferrer:1.0'
     testImplementation 'junit:junit:4.12'
-    implementation 'com.google.android.gms:play-services-ads:19.0.1'
+    implementation 'com.google.android.gms:play-services-ads:19.8.0'
 
-    implementation 'com.google.firebase:firebase-core:17.2.2'
 
     // AndroidProcesses library
     implementation 'com.jaredrummler:android-processes:1.1.1'
     implementation "androidx.core:core-ktx:1.1.0"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'com.google.firebase:firebase-database:19.2.0'
-    implementation 'com.google.firebase:firebase-analytics:17.2.2'
-    implementation 'com.google.firebase:firebase-ads:18.3.0'
-    implementation 'com.google.firebase:firebase-messaging:20.2.4'
+    implementation platform('com.google.firebase:firebase-bom:26.4.0')
+    implementation 'com.google.firebase:firebase-database'
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-ads'
+    implementation 'com.google.firebase:firebase-messaging'
+    implementation 'com.google.firebase:firebase-core'
+    implementation 'com.google.firebase:firebase-crashlytics'
+    implementation 'com.google.firebase:firebase-config'
 
 
     implementation "com.android.billingclient:billing:2.0.1"
     implementation 'com.google.firebase:firebase-crashlytics:17.0.0'
 
     implementation 'com.amplitude:android-sdk:2.23.2'
-    implementation 'com.google.firebase:firebase-core:17.2.0'
 
     implementation 'com.airbnb.android:lottie:3.4.0'
     implementation "me.leolin:ShortcutBadger:1.1.22@aar"

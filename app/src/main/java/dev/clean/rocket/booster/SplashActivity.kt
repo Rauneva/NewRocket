@@ -34,7 +34,7 @@ class SplashActivity : AppCompatActivity(), AdMobFullscreenManager.AdMobFullscre
     private var privatePoliceBtn: Button? = null
     private var privacyPoliceClicked = false
 
-    var MAX = 2
+    var MAX = 1
     var counter = 0
 
     var isProcessOpenNextScreen = false
@@ -57,7 +57,7 @@ class SplashActivity : AppCompatActivity(), AdMobFullscreenManager.AdMobFullscre
     }
 
     private fun bindTest() {
-        val firebaseRemoteConfig: FirebaseRemoteConfig = FirebaseRemoteConfig.getInstance()
+        /*val firebaseRemoteConfig: FirebaseRemoteConfig = FirebaseRemoteConfig.getInstance()
         firebaseRemoteConfig.setDefaults(R.xml.default_config)
 
         firebaseRemoteConfig.fetch(3600).addOnCompleteListener { task ->
@@ -68,7 +68,7 @@ class SplashActivity : AppCompatActivity(), AdMobFullscreenManager.AdMobFullscre
 
             }
             setABTestConfig(firebaseRemoteConfig.getString(ABConfig.PREMIUM_REQUEST_STRING))
-        }
+        }*/
     }
 
     private fun setABTestConfig(premVer: String) {

@@ -31,7 +31,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:srcCompat="@drawable/btn_easy"
+        app:srcCompat="@drawable/ic_low_battery_level"
         />
 
     <ImageView
@@ -45,7 +45,7 @@
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="@+id/imageView3"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/btn_medium"
+        app:srcCompat="@drawable/ic_half_battery"
         />
     <ImageView
         android:id="@+id/imageView7"
@@ -58,7 +58,7 @@
         app:layout_constraintStart_toEndOf="@+id/imageView6"
         app:layout_constraintTop_toTopOf="@+id/imageView3"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/btn_hard"
+        app:srcCompat="@drawable/ic_status"
         />
 
     <Space

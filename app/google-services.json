@@ -1,40 +1,40 @@
 {
   "project_info": {
-    "project_number": "84040967648",
-    "firebase_url": "https://newrocket-c5e36.firebaseio.com",
-    "project_id": "newrocket-c5e36",
-    "storage_bucket": "newrocket-c5e36.appspot.com"
+    "project_number": "74148386801",
+    "firebase_url": "https://livecleaner-6c049-default-rtdb.firebaseio.com",
+    "project_id": "livecleaner-6c049",
+    "storage_bucket": "livecleaner-6c049.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:84040967648:android:3986d2afed64116bdc3785",
+        "mobilesdk_app_id": "1:74148386801:android:6b9630a8e07a8825bf9650",
         "android_client_info": {
-          "package_name": "com.cleaner.booster.rocket"
+          "package_name": "com.keklolkek.clean.boost"
         }
       },
       "oauth_client": [
         {
-          "client_id": "84040967648-1irnkhgjlmqlhjif0bht8qj4aipkje5h.apps.googleusercontent.com",
+          "client_id": "74148386801-8fvlvhoa9ig19na9f7uqpvdolgfeglvb.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAPEonnKAfgbMMYZE89uuXf_UHPr6DLxvk"
+          "current_key": "AIzaSyAv6OYNu_b4jFwzy2naW2qmJ9-PD-0V1Mo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "84040967648-1irnkhgjlmqlhjif0bht8qj4aipkje5h.apps.googleusercontent.com",
+              "client_id": "74148386801-8fvlvhoa9ig19na9f7uqpvdolgfeglvb.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
         }
       },
-      "admob_app_id": "ca-app-pub-9270891694801169~7118295046"
+      "admob_app_id": "ca-app-pub-3166445636146734~1573180089"
     }
   ],
   "configuration_version": "1"

@@ -74,11 +74,14 @@
         <Button
             android:id="@+id/applied"
             android:padding="@dimen/_8sdp"
-            android:src="@drawable/apply"
+            android:background="@drawable/shape_back_bat"
             android:text="@string/apply"
-            android:layout_weight="1.5"
-            android:layout_width="match_parent"
-            android:layout_height="0dp" />
+            android:layout_weight="0.9"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingStart="74dp"
+            android:paddingEnd="74dp"
+            android:layout_height="0dp"/>
 
     </LinearLayout>
 

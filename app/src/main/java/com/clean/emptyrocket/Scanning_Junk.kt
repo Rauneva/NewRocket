@@ -84,6 +84,7 @@ class Scanning_Junk : Activity(), AdMobFullscreenManager.AdMobFullscreenDelegate
             //bindNative()
         }
 
+        lavLoad.setMaxFrame(150)
         lavLoad.addAnimatorListener(object : Animator.AnimatorListener {
             override fun onAnimationRepeat(animation: Animator?) {
                 Log.e("LOL", "onAnimationRepeat")

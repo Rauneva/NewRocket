@@ -3,8 +3,8 @@
     <color name="colorPrimary">#27282D</color>
     <color name="colorPrimaryDark">#27282D</color>
     <color name="colorAccent">#0bcef1</color>
-    <color name="tab_background_selected">#9C27B0</color>
-    <color name="tab_background_unselected">#F22938</color>
+    <color name="tab_background_selected">#03A9F4</color>
+    <color name="tab_background_unselected">#46474E</color>
     <color name="transparent">#00000000</color>
     <color name="main">#FFE11916</color>
     <color name="black">#000000</color>

@@ -3,22 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_splash"
     android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:scaleType="fitXY"
-        app:srcCompat="@drawable/ic_rocket_spash" />
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_fileName="splash.json"
+        android:layout_marginBottom="30dp"/>
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="bottom"
-        android:src="@drawable/gradient_splash"/>
+
 
 
     <TextView
@@ -27,7 +23,7 @@
         android:text="Super Phone Cleaner"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
-        android:textColor="@color/btn_white"
+        android:textColor="#10bab9"
         android:layout_gravity="bottom|center_horizontal"
         android:gravity="center_horizontal"
         android:layout_marginBottom="120dp"

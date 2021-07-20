@@ -145,13 +145,13 @@ class MainActivity : AppCompatActivity(), Preference.OnPreferenceClickListener {
                 System.exit(2)
         }
 
-        tab_layout.addTab(tab_layout.newTab().setIcon(R.drawable.phonebooster))
-        tab_layout.addTab(tab_layout.newTab().setIcon(R.drawable.battery_saver))
-        tab_layout.addTab(tab_layout.newTab().setIcon(R.drawable.cooler))
-        tab_layout.addTab(tab_layout.newTab().setIcon(R.drawable.cleaner))
+        tab_layout.addTab(tab_layout.newTab().setIcon(R.drawable.ic_speedometer))
+        tab_layout.addTab(tab_layout.newTab().setIcon(R.drawable.ic_battery_status_full))
+        tab_layout.addTab(tab_layout.newTab().setIcon(R.drawable.ic_cpu))
+        tab_layout.addTab(tab_layout.newTab().setIcon(R.drawable.ic_memory))
         Log.i("adsShow", adsShow.toString())
         if (!SubscriptionProvider.hasSubscription()) {
-            tab_layout.addTab(tab_layout.newTab().setIcon(R.drawable.ads))
+            tab_layout.addTab(tab_layout.newTab().setIcon(R.drawable.ic_giftbox))
         }
         tab_layout.tabGravity = TabLayout.GRAVITY_FILL
 
